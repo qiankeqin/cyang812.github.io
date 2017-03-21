@@ -4,7 +4,7 @@ node_js: stable
 
 branches:
   only:
-  - source
+  - blog-source
 
 before_install:
   - export TZ='Asia/Shanghai'
