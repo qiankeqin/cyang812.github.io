@@ -1,4 +1,5 @@
 title: ZigBee学习笔记（五） CC2530 GPIO
+date: 2016/9/7 19:34:23
 tags:
 - ZigBee
 - CC2530

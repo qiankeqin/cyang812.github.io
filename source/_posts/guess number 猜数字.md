@@ -1,4 +1,5 @@
 title: guess number 猜数字
+date: 2016/8/22 10:08:23
 tags:
 - 编程
 - python
@@ -9,6 +10,8 @@ categories:
 
 ## 一、说明
 使用python编写的猜数字游戏
+
+<!-- more -->
 
 ## 二、python代码
 

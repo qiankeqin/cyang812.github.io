@@ -1,4 +1,5 @@
 title: ZigBee学习笔记（二）
+date: 2016/9/2 21:21:23
 tags:
 - ZigBee
 - CC2530

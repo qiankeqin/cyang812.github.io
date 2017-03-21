@@ -1,4 +1,5 @@
 title: java和c++的区别（一）
+date: 2016/9/15 10:08:23
 tags:
 - java
 - c++

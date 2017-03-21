@@ -1,4 +1,5 @@
 title: 信号问题（switch语句）
+date: 2016/4/19 10:08:23
 tags:
 - 编程
 - java
@@ -13,6 +14,8 @@ categories:
 R(Readability) 信号可辨度即清晰度.
 
 S(Strength)    信号强度即大小.
+
+<!-- more -->
 
 其中R位于报告第一位，共分5级，用1—5数字表示.
 

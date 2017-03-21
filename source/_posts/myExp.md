@@ -1,4 +1,5 @@
 title: myExp
+date: 2016/4/20 10:08:23
 tags:
 - 编程
 - java
@@ -9,6 +10,8 @@ categories:
 **题目：** 计算exp的一种方法是`exp(x)=1+x+x^2/2!+x^3/3!+……`
 
 **要求：** 编写一个myExp方法，计算该公式。
+
+<!-- more -->
 
 **java代码：**
 

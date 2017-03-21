@@ -1,4 +1,5 @@
 title: ZigBee学习笔记（六） CC2530 时钟 电源管理
+date: 2016/9/7 19:34:23
 tags:
 - ZigBee
 - CC2530

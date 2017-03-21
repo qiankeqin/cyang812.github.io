@@ -1,4 +1,5 @@
 title: Android开发入门
+date: 2016/5/1 19:34:23
 tags:
 - 编程
 - java
@@ -10,6 +11,8 @@ categories:
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=5041667&auto=1&height=66"></iframe>
 
 大概从5月开始就在看Mars的**java4Android的视频**，总共50集，现在看到40集。另外，从周二开始看**《第一行代码》**，目前这本书看到一半。
+
+<!-- more -->
 
 这个视频和这本书讲的都挺好的，里面的东西都很好理解，视频里的东西都是很基础的java应用，而且是主要用于android开发的。而《第一行代码》这本书，给了很多的例子，去实现理论的内容，结合起来看很容易理解。并且android的内容都是日常用到的东西，所以很容易知道这行代码是实现什么功能的。
 

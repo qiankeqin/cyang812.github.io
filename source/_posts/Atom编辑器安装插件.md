@@ -1,4 +1,5 @@
 title: Atom编辑器安装插件
+date: 2016/8/28 22:50:23
 tags:
 - Atom
 - 插件
