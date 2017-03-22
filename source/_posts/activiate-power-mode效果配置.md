@@ -1,5 +1,5 @@
 title: 装逼编辑器Atom+activiate-power-mode插件效果配置
-date: 2016/8/28 10:08:23
+date: 2016/7/27 10:08:23
 tags:
 - Atom
 - 插件

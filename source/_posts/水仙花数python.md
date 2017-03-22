@@ -1,5 +1,5 @@
-title: 水仙花数
-date: 2016/8/23 10:08:23
+title: 水仙花数python
+date: 2016/8/16 10:08:23
 tags:
 - 编程
 - python
