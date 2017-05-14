@@ -110,5 +110,5 @@ baidusitemap:
 deploy:
   type: git
   repo:
-      github: git@github.com:cyang812/cyang812.github.io.git,master
+      #github: git@github.com:cyang812/cyang812.github.io.git,master
       coding: git@git.coding.net:cyang812/cyang812.git,master
