@@ -93,12 +93,12 @@ limit: 20
 #skip_render:
 #    - photos/**
 
-    
+
 # next站内搜索
 search:
   path: search.xml
   field: post
-  
+
 # next baidu seo
 sitemap: 
   path: sitemap.xml
