@@ -263,7 +263,7 @@ auto_excerpt:
 post_meta:
   item_text: true
   created_at: true
-  updated_at: true
+  updated_at: false
   categories: true
 
 # Post wordcount display settings
@@ -305,7 +305,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night eighties
+highlight_theme: night
 
 
 # ---------------------------------------------------------------
@@ -326,7 +326,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: f8595c23abcd628eecc5cf21b38889d4
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -361,13 +361,13 @@ changyan:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
-##  type: button
+#baidushare: false
+##  type: slide
 
 # Share
-#jiathis:
+#jiathis: false
 # Warning: JiaThis does not support https.
-#add_this_id:
+add_this_id: ra-592ace52b70a496b
 
 # Share
 #duoshuo_share: true
@@ -377,7 +377,7 @@ changyan:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: 83208485-1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
@@ -431,34 +431,34 @@ vkontakte_api:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: 7QT9UfSNuPzsorD5zHtgsrmN-gzGzoHsz
+  app_key: 43Vf8xUKA5dQy0V65jgHDG6u
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
   site_uv: true
-  site_uv_header: <i class="fa fa-user"></i>
-  site_uv_footer:
+  site_uv_header: <i class="fa fa-user"></i>本站访客数
+  site_uv_footer: 人次
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: <i class="fa fa-eye"></i>
-  site_pv_footer:
+  site_pv_header: <i class="fa fa-eye"></i>本站总访问量
+  site_pv_footer: 次
   # custom pv span for one page only
   page_pv: true
-  page_pv_header: <i class="fa fa-file-o"></i>
-  page_pv_footer:
+  page_pv_header: <i class="fa fa-file-o"></i>本文总阅读量
+  page_pv_footer: 次
 
 
 # Tencent analytics ID
-# tencent_analytics:
+tencent_analytics: 58093008
 
 # Tencent MTA ID
-# tencent_mta:
+tencent_mta: 500461766
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
@@ -522,7 +522,7 @@ fancybox: true
 canvas_nest: false
 
 # three_waves
-three_waves: false
+three_waves: true
 
 # canvas_lines
 canvas_lines: false
