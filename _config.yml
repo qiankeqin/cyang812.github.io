@@ -14,10 +14,10 @@ timezone:
 avatar: /uploads/2.jpg
 
 # next多说
-duoshuo_shortname: cyang812
+#duoshuo_shortname: cyang812
 
 # next disqus
-disqus_shortname: cyang
+#disqus_shortname: cyang812
 
 # next百度统计
 baidu_analytics: f8595c23abcd628eecc5cf21b38889d4
@@ -75,7 +75,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: next-raw
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
