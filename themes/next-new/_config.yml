@@ -334,7 +334,7 @@ han: false
 # Disqus
 disqus:
   enable: true
-  shortname: cyang812
+  shortname: cyang
   count: true
 
 # Hypercomments
