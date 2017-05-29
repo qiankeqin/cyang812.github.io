@@ -17,7 +17,7 @@ rss: /atom.xml
 since: 2016/4/21
 
 # icon between year and author @Footer
-authoricon: heart
+authoricon: coffee
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -124,14 +124,14 @@ font:
   # The `size` option use `px` as unit
   logo:
     external: true
-    family:
+    family: Righteous
     size:
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
-    size:
+    family: Roboto Mono
+    size: 16
 
 
 
