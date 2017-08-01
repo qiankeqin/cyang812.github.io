@@ -1,4 +1,4 @@
-title: leetcode: power of three
+title: leetcode power of three
 date: 2017/8/1 22:27:23
 tags:
 - 编程
