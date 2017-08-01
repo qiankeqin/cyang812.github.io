@@ -1,10 +1,8 @@
 title: STM32 BSRR BRR ODR 寄存器
 date: 2017/8/1 12:35:23
 tags:
-
 - STM32
-
-  categories:
+categories:
 - STM32
 ---
 
