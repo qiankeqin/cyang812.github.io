@@ -22,6 +22,8 @@ void GPIO_SetBits(GPIO_Typedef* GPIOx， uint16_t GPIO_Pin)
 void GPIO_ResetBits(GPIO_Typedef* GPIOx, uint16_t GPIO_Pin)  
 ```
 
+<!-- more -->
+
 而且实际上这两个库函数就是通过修改BSRR，BRR寄存器的值来实现对 IO 口设置的。如下便是输出高电平的函数体：
 
 ```c
