@@ -49,9 +49,9 @@ menu:
   tags: /tags
   archives: /archives
   about: http://cyang.tech/aboutme
-  guestbook: /guestbook
+  #guestbook: /guestbook
   notes: /notes
-  #sitemap: /sitemap.xml
+  sitemap: /sitemap.xml
   #commonweal: /404.html
 
 
