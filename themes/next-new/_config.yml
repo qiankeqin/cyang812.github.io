@@ -51,7 +51,7 @@ menu:
   about: http://cyang.tech/aboutme
   #guestbook: /guestbook
   notes: /notes
-  read: http://cyang.tech/note
+  #read: http://cyang.tech/note
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -74,7 +74,7 @@ menu_icons:
   commonweal: heartbeat
   guestbook: pencil
   notes: print
-  read: print
+  #read: print
 
 
 
