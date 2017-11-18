@@ -198,7 +198,7 @@ toc:
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 creative_commons: by-nc-sa
-#creative_commons: 
+#creative_commons:
 
 
 sidebar:
@@ -234,11 +234,13 @@ links_title: Links
 links:
   IIssNan: http://notes.iissnan.com/
   TaterLi's: http://www.lijingquan.net/
-  Login926: https://login926.github.io
+  #Login926: https://login926.github.io
   Aixiu: http://blog.ynxiu.com/
   一肩月光: http://zwb.io
   #Title: http://example.com/
   xin053: https://xin053.github.io
+  Alvinmi: https://alvinmi.github.io
+  xnmll: www.xnmll.cn
 
 
 # ---------------------------------------------------------------
