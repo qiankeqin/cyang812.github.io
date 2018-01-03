@@ -59,3 +59,18 @@ void RCC_HSE_Configuration() //自定义系统时间（可以修改时钟）
 	}
 }
 ```
+
+## 2017/11/19 更新
+- 1、在较新的库函数版本中，systick用于延时的时候是非常实用的，而且配置上也比较简单。都是根据系统主频的配置自动设置初始计数值，将定时器的定时时间设置成1ms。
+- 2、1ms产生一次中断，在中断函数中执行计数值`uwTick`加1操作。
+- 3、延迟函数中通过对`uwTick`的数值进行判断来实现。这样在延迟时也可以比较灵活，对参数i（单位为ms）传值便可以配置延迟时间。代码如下：
+	```c
+	__weak void HAL_Delay(__IO uint32_t Delay)
+	{
+	  uint32_t tickstart = 0U;
+	  tickstart = HAL_GetTick();
+	  while((HAL_GetTick() - tickstart) < Delay)
+	  {
+	  }
+	}
+	```
