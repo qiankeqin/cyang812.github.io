@@ -52,3 +52,46 @@ IAR Embedded Workbench 并不实现 sbrk()。
 所有产品名称均为其各自所有者的商标或注册商标。
 
 
+# 补充
+如下是一个简单的函数，调用这个函数可以显示当前的 heap 消耗：
+
+```c
+void heap_usage()
+{
+    printf("---------------------------\n");
+
+    struct mallinfo m;
+    m = __iar_dlmallinfo();
+    printf("total free space = %u, %u k\n", m.fordblks, m.fordblks/1024);
+    __iar_dlmalloc_stats();
+}
+```
+
+结果如下：共分配 112k heap 空间，应用程序不断申请，最终仅剩余 15k 左右。之后应用程序结束，开始一步步释放申请的空间，可用的 heap 空间也随着释放开始增加。最终全部释放，112k heap 均可被重新使用。
+
+```
+·some code·
+---------------------------
+total free space      = 16104 15 k
+max system bytes      =     114688
+system bytes          =     114688
+in use bytes          =      98584
+1- total free space   = 16104 15 k
+2- total free space   = 16168 15 k
+3- total free space   = 58640 57 k
+4- total free space   = 62040 60 k
+5.0- total free space = 74792 73 k
+5.0- total free space = 74792 73 k
+5.1- total free space = 74792 73 k
+5.2- total free space = 83064 81 k
+5.3- total free space = 91272 89 k
+5.4- total free space = 114688 112 k
+5- total free space   = 114688 112 k
+---------------------------
+total free space = 114688 112 k
+max system bytes =     114688
+system bytes     =     114688
+in use bytes     =          0
+decode end!
+0:0:0 
+```
