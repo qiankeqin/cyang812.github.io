@@ -70,3 +70,24 @@ int Init_layer2_Decoder(void)
 }
 
 ```
+
+这里假设 Frame 大小为100k，整个堆区为75k，因此 Steam 可以申请成功，但 Frame 显然会申请失败。如果不对 Frame 进行释放就直接返回的话，就会造成内存泄漏。如下串口打印可看。
+```
+**********************
+SystemCoreClock = 180000000
+sizeof(Stream) = 56
+Stream = 0x20003b30
+malloc Frame fail!
+//free(Stream)
+Stream = 0x20003b30
+init mp2 dec fail!
+---------------------------
+total free space = 76736, 74 k
+max system bytes =      76800
+system bytes     =      76800
+in use bytes     =         64
+```
+
+从上面的结果可以看到，Stream 的结构大小为56字节，加上必要的用于维护的数据，在堆区占用了64字节， Frame 申请失败后，可看到这64字节并没有被释放。
+
+另外，在对 Stream 进行释放之后，还要将该指针指向 NULL。因为释放只是将该指针指向的内存还给堆区，Stream 指针还是指向堆区，但此时对该指针的指向的区域进行访问是不被允许的。
