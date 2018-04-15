@@ -3,6 +3,11 @@ title: notes
 date: 2016-12-19 10:09:49
 comments: true
 ---
+{% cq %} 天下只有两种人。譬如一串葡萄到手，一种人挑最好的吃，另一种人把最好的留在最后吃。照例第一种人应该乐观，因为他每吃一颗都是吃剩的葡萄里最好的；第二种人应该悲观，因为他每吃一颗都是吃剩的葡萄里最坏的。不过事实上适得其反，缘故是第二种人还有希望，第一种人只有回忆。
+
+**《围城》**
+ **2018/4/15**  {% endcq %}
+
 {% cq %} 你不能这样干涉别人的生活，就算是为了对方好。如果吕克知道你去见了他爸爸，说不定会怪你。这就是他的人生，而只有他一个人能决定他的人生。你必须顺应事实，放手成长，你没有必要医治好在你成长路上与你擦肩而过的每个人。即使你成为最顶尖的医生，也做不到这样。
 
 **《偷影子的人》**
@@ -30,6 +35,8 @@ But your dreams may not...
 
  **2016/12/19**  {% endcq %}
 
+
+{% cq %} more notes at [kindle-notes](http://cyang.top/),  more comments at [douban](https://www.douban.com/people/cyang812/reviews). {% endcq %} 
 
  <!-- 只显示播放器 -->
  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=540965889&auto=1&height=430"></iframe>
