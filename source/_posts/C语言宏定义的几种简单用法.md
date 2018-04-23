@@ -6,6 +6,7 @@ categories:
 - 编程
 ---
 
+
 - 1、计算数组的大小
 
   ```c
@@ -46,6 +47,11 @@ categories:
   #define GET_WORD_LOWBYTE(x)	((uint32_t)(x) & 0xff)
 
   ```
+- 6、计算结构体成员的偏移量
+
+  ```c
+  #define OFFSET(s,m)  (size_t)&(((s * )0)->m)  //计算分量 m 在结构体 s 中的偏移量，单位是字节
+  ```
 
 ## 以上宏定义的示例程序
 
@@ -68,6 +74,8 @@ categories:
 #define GET_WORD_LOW(x)  ((uint32_t)(x) & 0xffff)
 #define GET_WORD_HIGHBYTE(x) ((uint32_t)(x) >> 24)
 #define GET_WORD_LOWBYTE(x)	((uint32_t)(x) & 0xff)
+
+#define OFFSET(s,m)  (size_t)&(((s * )0)->m)  
 
 void test_countof(){
 
@@ -124,6 +132,24 @@ void test_GET_WORD(){
 	printf("%x\n",GET_WORD_LOWBYTE(a));
 }
 
+typedef struct _test
+{
+	int x;
+	int y;
+	char z;
+}test_t;
+
+void test_OFFSET()
+{
+	int a = mymacro(test_t, x);
+	int b = mymacro(test_t, y);
+	int c = mymacro(test_t, z);
+	
+	printf("a = %d\n", a);		
+	printf("b = %d\n", b);		
+	printf("c = %d\n", c);		
+}
+
 void main(void) {
 
 	test_countof();
@@ -135,5 +161,12 @@ void main(void) {
 	test_MAKE_WORD();
 
 	test_GET_WORD();
-}
+
+	test_OFFSET();
+}		
 ```
+
+
+
+
+
