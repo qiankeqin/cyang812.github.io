@@ -29,7 +29,7 @@ uint8_t sdram_buffer[0x700000];
 ```
 
 编译后生成的 map 文件可以看出，有 7MB 的空间是使用绝对地址定义的。
-![这里写图片描述](https://img-blog.csdn.net/20180326193029821?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTEzMDM0NDM=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](http://p7tst3obo.bkt.clouddn.com/20180326193029821?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10)
 
 
 keil 下使用如下语句：

@@ -14,4 +14,4 @@ categories:
 测试得分：277
 官方给出的分数为：273.55
 如下图：
-![这里写图片描述](http://img.blog.csdn.net/20180228125429924?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMTMwMzQ0Mw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](http://p7tst3obo.bkt.clouddn.com/20180228125429924?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10)

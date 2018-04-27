@@ -7,7 +7,7 @@ categories:
 - STM32
 ---
 
-![](http://img.blog.csdn.net/20171213122640655?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMTMwMzQ0Mw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](http://p7tst3obo.bkt.clouddn.com/20171213122640655?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10)
 
 # 一、说明
 
@@ -80,7 +80,7 @@ void USBD_LL_Delay(uint32_t Delay)
 }
 ```
 而且在底层的 USB 库中，也有直接调用到`hal_delay`的，如下：
-![这里写图片描述](http://img.blog.csdn.net/20171213122640655?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMTMwMzQ0Mw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![这里写图片描述](http://p7tst3obo.bkt.clouddn.com/20171213122640655?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10)
  
 # 2018.1.3修改
 后来发现好像不是这个问题，不这样修改也可以连接。讲道理 SysTick 的中断优先等级比 USB 的高，因此应该是不会受影响的。可是当时对比了两个工程的代码，好像也就这点区别。不过在官方库中，都是使用第二种方式的。

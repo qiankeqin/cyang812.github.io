@@ -15,7 +15,7 @@ categories:
 本项目使用 python 编写，分析 tumblr 账户中喜欢的内容，给出资源链接，并下载。
 其中 `test.json` 是一份 tumblr 返回的喜欢数据的 json 示例，提取里面图片和视频的资源地址后下载，下载的内容如下图。
 
-![这里写图片描述](http://img.blog.csdn.net/20180303164838919?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMTMwMzQ0Mw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](http://p7tst3obo.bkt.clouddn.com/20180303164838919?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10)
 
 <!-- more -->
 
@@ -26,10 +26,10 @@ categories:
 - 得到认证后可以通过脚本来获取资源内容，也可以通过[这个网页](https://api.tumblr.com/console/calls/user/likes#)来查询，结果会通过 json 的形式返回
 
 - 保存你得到的 json 数据，命名为`test.json`，执行命令 `python json_parse.py`，这可以从 json 文件中提取出资源的真正链接，并存为 `url_list.txt` 文件
-  ![这里写图片描述](http://img.blog.csdn.net/20180303164909831?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMTMwMzQ0Mw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+  ![这里写图片描述](http://p7tst3obo.bkt.clouddn.com/20180303164909831?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10)
 
 - 执行 `python download.py`，之后资源文件就会挨个下载到 download 文件夹下
-  ![这里写图片描述](http://img.blog.csdn.net/20180303164920621?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMTMwMzQ0Mw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+  ![这里写图片描述](http://p7tst3obo.bkt.clouddn.com/20180303164920621?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10)
 
 # 三、其他
 

@@ -333,7 +333,7 @@ void main()
 # 三、演示
 
 如下图为串口打印出接收的红外按键值信息：
-![这里写图片描述](http://img.blog.csdn.net/20170911164650633?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMTMwMzQ0Mw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![这里写图片描述](http://p7tst3obo.bkt.clouddn.com/20170911164650633?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10)
 
 说明1：这篇文章所使用的方法主要参考自[这篇文章](http://blog.csdn.net/qq_16255321/article/details/43602535)，代码仅做了部分修改，并在源代码基础上添加了部分代码，用于实现连续键。
 

@@ -16,7 +16,7 @@ npm install hexo-generator-feed
 
 ```
 
-![这里写图片描述](http://img.blog.csdn.net/20160827093755958)
+![这里写图片描述](http://p7tst3obo.bkt.clouddn.com/20160827093755958?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10)
 
 <!-- more -->
 
@@ -34,7 +34,7 @@ type: atom
 path: atom.xml
 limit: 20
 ```
-![这里写图片描述](http://img.blog.csdn.net/20160827093855258)
+![这里写图片描述](http://p7tst3obo.bkt.clouddn.com/20160827093855258?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10)
 
 3、添加主题配置，在主题目录下的_config.yml目录下，添加如下配置。
 
@@ -42,4 +42,4 @@ limit: 20
 rss: /atom.xml
 ```
 
-![这里写图片描述](http://img.blog.csdn.net/20160827093903148)
+![这里写图片描述](http://p7tst3obo.bkt.clouddn.com/20160827093903148?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10)
