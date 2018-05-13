@@ -338,7 +338,7 @@ baidu_analytics: f8595c23abcd628eecc5cf21b38889d4
 disqus:
   enable: true
   shortname: cyang
-  count: true
+  count: false
 
 # Hypercomments
 #hypercomments_id:
