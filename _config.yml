@@ -7,7 +7,7 @@ title: cyang's blog
 subtitle: just do IT
 description: 不念过去 不负现在 不畏将来
 author: cyang
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # next头像
@@ -24,8 +24,8 @@ baidu_analytics: f8595c23abcd628eecc5cf21b38889d4
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-#url: http://cyang.tech
-url: http://cyang812.coding.me
+url: http://blog.cyang.tech
+#url: http://cyang812.coding.me
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -76,7 +76,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next-new
+theme: material
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
