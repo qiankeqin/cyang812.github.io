@@ -3,9 +3,9 @@ title: about
 date: 2016-05-28 20:52:19
 comments: false
 ---
-{% cq %} 那一天我二十一岁，在我一生的黄金时代。
+那一天我二十一岁，在我一生的黄金时代。
 
- **王小波**  {% endcq %}
+ **王小波** 
 
 ![后溪考场](http://od68ytlrn.bkt.clouddn.com/IMG_20160419_215543.jpg)
 
