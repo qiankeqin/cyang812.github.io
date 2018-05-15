@@ -24,8 +24,8 @@ baidu_analytics: f8595c23abcd628eecc5cf21b38889d4
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-#url: http://blog.cyang.tech
-url: http://cyang812.coding.me
+url: http://blog.cyang.tech
+#url: http://cyang812.coding.me
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -113,5 +113,5 @@ baidusitemap:
 deploy:
   type: git
   repo:
-      #github: git@github.com:cyang812/cyang812.github.io.git,master
-      coding: git@git.coding.net:cyang812/cyang812.git,master
+      github: git@github.com:cyang812/cyang812.github.io.git,master
+      #coding: git@git.coding.net:cyang812/cyang812.git,master
