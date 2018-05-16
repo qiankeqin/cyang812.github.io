@@ -5,7 +5,9 @@ tags:
 - Android Things
 categories:
 - 树莓派
+thumbnail: http://od68ytlrn.bkt.clouddn.com/Android%20Things.png
 ---
+
 
 ![](http://od68ytlrn.bkt.clouddn.com/Android%20Things.png)
 

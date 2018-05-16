@@ -7,7 +7,9 @@ tags:
 - 输入捕获
 categories:
 - STM32
+thumbnail: http://od68ytlrn.bkt.clouddn.com/IR_Tim_Capture.png
 ---
+
 
 ![这里写图片描述](http://od68ytlrn.bkt.clouddn.com/IR_Tim_Capture.png)
 

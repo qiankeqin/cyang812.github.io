@@ -6,7 +6,9 @@ tags:
 - STM32
 categories:
 - 总结
+thumbnail: http://od68ytlrn.bkt.clouddn.com/%E5%AE%89%E8%A3%85.png
 ---
+
 
 ![STM32CubeMX](http://od68ytlrn.bkt.clouddn.com/%E5%AE%89%E8%A3%85.png)
 <!-- more -->

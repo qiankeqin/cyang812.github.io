@@ -5,7 +5,9 @@ tags:
 - win10 IoT
 categories:
 - 树莓派
+thumbnail: http://od68ytlrn.bkt.clouddn.com/win10%20IoT.png
 ---
+
 
 ![](http://od68ytlrn.bkt.clouddn.com/win10%20IoT.png)
 

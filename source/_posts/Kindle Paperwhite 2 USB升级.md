@@ -4,7 +4,9 @@ tags:
 - Kindle
 categories:
 - 教程
+thumbnail: http://p7tst3obo.bkt.clouddn.com/20161213220745915?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
 ---
+
 
 关于更新方法具体请看[Kindle Paperwhite2（第6代）5.7.2.1固件升级教程](http://blog.csdn.net/u011303443/article/details/50791773)
 

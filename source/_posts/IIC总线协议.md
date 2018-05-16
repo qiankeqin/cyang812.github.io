@@ -5,7 +5,9 @@ tags:
 - IIC
 categories:
 - 硬件
+thumbnail: http://7xnu89.com1.z0.glb.clouddn.com/IIC%E4%BF%A1%E5%8F%B7%E8%A1%A8%E7%A4%BA.png
 ---
+
 
 ![](http://7xnu89.com1.z0.glb.clouddn.com/IIC%E4%BF%A1%E5%8F%B7%E8%A1%A8%E7%A4%BA.png)
 

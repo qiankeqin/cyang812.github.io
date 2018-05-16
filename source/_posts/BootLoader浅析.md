@@ -1,11 +1,12 @@
----
 title: BootLoader浅析
 date: 2016-11-28 20:56:19
 tags:
 - BootLoader
 categories:
 - 硬件
+thumbnail: http://p7tst3obo.bkt.clouddn.com/20161128154143013?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
 ---
+
 
 关于Bootloader，从书上的文字描述，很难理解这个名词是什么，有什么用。这次用到了，算是有了更进一步的认识。
 

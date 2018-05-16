@@ -6,7 +6,9 @@ tags:
 - Android
 categories:
 - Android
+thumbnail: http://7xnu89.com1.z0.glb.clouddn.com/%E8%AE%A1%E7%AE%97%E5%99%A8.png
 ---
+
 
 # Calculator 简易计算器开发
 

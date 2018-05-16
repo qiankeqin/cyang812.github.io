@@ -5,7 +5,9 @@ tags:
 - STM32
 categories:
 - STM32
+thumbnail: http://od68ytlrn.bkt.clouddn.com/STM32%20%E5%BB%B6%E8%BF%9F%E5%87%BD%E6%95%B0.png
 ---
+
 
 ![](http://od68ytlrn.bkt.clouddn.com/STM32%20%E5%BB%B6%E8%BF%9F%E5%87%BD%E6%95%B0.png)
 

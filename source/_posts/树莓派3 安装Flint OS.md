@@ -5,7 +5,9 @@ tags:
 - Flint OS
 categories:
 - 树莓派
+thumbnail: http://od68ytlrn.bkt.clouddn.com/Flint%20OS.png
 ---
+
 
 ![](http://od68ytlrn.bkt.clouddn.com/Flint%20OS.png)
 

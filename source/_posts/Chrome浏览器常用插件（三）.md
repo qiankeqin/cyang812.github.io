@@ -6,7 +6,9 @@ tags:
 - 插件
 categories:
 - 总结
+thumbnail: http://p7tst3obo.bkt.clouddn.com/20160924222043403?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
 ---
+
 
 接[《Chrome浏览器安装，常用插件（一）》](http://blog.csdn.net/u011303443/article/details/52337699)
 

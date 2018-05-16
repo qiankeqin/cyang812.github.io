@@ -6,7 +6,9 @@ tags:
 - IAR
 categories:
 - 硬件
+thumbnail: http://p7tst3obo.bkt.clouddn.com/20180326193029821?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
 ---
+
 
 当芯片内部的 SRAM 不够用时，就需要在外部扩展 SDRAM，然后在写程序时将一些比较大的 buffer 定义在外部内存中。在进行正确的配置之后，对外部 SDRAM 的使用，和芯片内部的 SRAM 是一样的，可以直接对 SDRAM 的地址进行读写访问。
 

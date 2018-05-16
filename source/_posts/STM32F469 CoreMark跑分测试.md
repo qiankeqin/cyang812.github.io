@@ -7,7 +7,9 @@ tags:
 - CoreMark
 categories:
 - 嵌入式
+thumbnail: http://p7tst3obo.bkt.clouddn.com/20180227195105586?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
 ---
+
 
 # 一、CoreMark 介绍
 CoreMark 是一项测试处理器性能的基准测试。代码使用 C 语言写出，包含：列表，数学矩阵操作和状态及 CRC 等运算法则。目前 CoreMark 已迅速成为测量与比较处理器性能的业界基准测试。CoreMark 的得分越高，意味着性能更高。

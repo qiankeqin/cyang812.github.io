@@ -6,7 +6,9 @@ tags:
 - 梯子
 categories:
 - 教程
+thumbnail: http://od68ytlrn.bkt.clouddn.com/CSDN%E5%9B%9E%E6%94%B6%E7%AB%99.png
 ---
+
 
 这是一篇半年前写的教程，之前放在CSDN，最近不知道为什么突然被管理员删除了。现在放在个人博客。
 

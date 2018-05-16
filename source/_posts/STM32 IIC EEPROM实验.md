@@ -6,7 +6,9 @@ tags:
 - EEPROM
 categories:
 - STM32
+thumbnail: http://od68ytlrn.bkt.clouddn.com/STM32%20EEPROM.png
 ---
+
 
 ![](http://od68ytlrn.bkt.clouddn.com/STM32%20EEPROM.png)
 

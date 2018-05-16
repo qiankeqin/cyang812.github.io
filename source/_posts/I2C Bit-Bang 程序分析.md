@@ -5,7 +5,9 @@ tags:
 - IIC
 categories:
 - 硬件
+thumbnail: http://p7tst3obo.bkt.clouddn.com/20170316182930507?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
 ---
+
 
 # 一、Bit Bang
 关于 Bit Bang 的解释:Use software to control serial communication at general-purpose I/O pins,简单来讲就是使用软件通过 IO 脚去实现 I2C 的时序从而使用 I2C 协议进行通信。
@@ -19,6 +21,7 @@ categories:
 
 - 1、设置 GPIO 管脚
 设置两个管脚作为 SCL 和 SDA，例如 GPIOA1 和 GPIOA2
+
 ```c
 #define SCL_PORT            GPIOA
 #define SCL_PIN             GPIO_Pin_1
@@ -33,9 +36,9 @@ categories:
 #define SDA_OUT 			GPIOA->MODER|=(((uint32_t)GPIO_Mode_OUT) << (2 * 2))
 #define SDA_IN 				GPIOA->MODER&=~(GPIO_MODER_MODER0<<(2 * 2))
 ```
-<!-- more -->
 
 - 2、SCL时钟周期
+
 ```c
 void I2C_Delay(void)
 {
@@ -46,6 +49,7 @@ void I2C_Delay(void)
 
 - 3、附加设置
 这里主要是使用宏定义模拟函数
+
 ```c
 #define SCL_OUTH() 		SCL_HIGH
 #define SCL_OUTL() 		SCL_LOW

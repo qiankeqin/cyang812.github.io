@@ -7,7 +7,9 @@ tags:
 - linux
 categories:
 - 总结
+thumbnail: http://p7tst3obo.bkt.clouddn.com/20160820192331858?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
 ---
+
 # 一、意图
 最近想要通过路由器直接通过锐捷的认证，然后连接VPN，然后发送WIFI信号。这篇博客主要是讲一下这之间出现的问题，以及解决情况。
 

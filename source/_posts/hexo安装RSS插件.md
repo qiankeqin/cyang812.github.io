@@ -6,7 +6,9 @@ tags:
 - 插件
 categories:
 - 教程
+thumbnail: http://p7tst3obo.bkt.clouddn.com/20160827093755958?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
 ---
+
 # 一、步骤
 
 1、安装插件。进入本地hexo目录，打开git bash。输入以下命令

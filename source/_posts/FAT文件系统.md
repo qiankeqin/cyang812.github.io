@@ -5,7 +5,9 @@ tags:
 - FAT32
 categories:
 - 硬件
+thumbnail: http://od68ytlrn.bkt.clouddn.com/fat32.jpg
 ---
+
 
 ![](http://od68ytlrn.bkt.clouddn.com/fat32.jpg)
 

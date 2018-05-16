@@ -5,7 +5,9 @@ tags:
 - FreeRTOS
 categories:
 - 硬件
+thumbnail: http://od68ytlrn.bkt.clouddn.com/FreeRTOS.bmp
 ---
+
 
 ![](http://od68ytlrn.bkt.clouddn.com/FreeRTOS.bmp)
 

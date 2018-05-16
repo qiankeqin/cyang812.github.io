@@ -6,7 +6,9 @@ tags:
 - tumblr
 categories:
 - 教程
+thumbnail: http://p7tst3obo.bkt.clouddn.com/20180303164838919?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
 ---
+
 
 源代码发布在github : [get_tumblr_likes](https://github.com/cyang812/get_tumblr_likes)
 

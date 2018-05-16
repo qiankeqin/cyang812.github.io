@@ -4,7 +4,9 @@ tags:
 - STM32
 categories:
 - 硬件
+thumbnail: http://od68ytlrn.bkt.clouddn.com/assert_param.png
 ---
+
 
 ![](http://od68ytlrn.bkt.clouddn.com/assert_param.png)
 

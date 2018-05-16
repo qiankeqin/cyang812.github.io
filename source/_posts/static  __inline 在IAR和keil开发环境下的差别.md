@@ -7,7 +7,9 @@ tags:
 - C语言
 categories:
 - 硬件
+thumbnail: http://p7tst3obo.bkt.clouddn.com/20161029185507754?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
 ---
+
 
 static  __inline这条语句在IAR和Keil下的需要写成不同的形式，否则会报错。
 

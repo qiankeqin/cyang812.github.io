@@ -5,7 +5,9 @@ tags:
 - flyme OS
 categories:
 - 总结
+thumbnail: http://od68ytlrn.bkt.clouddn.com/flyme5_flyme3.jpg
 ---
+
 
 ![](http://od68ytlrn.bkt.clouddn.com/flyme5_flyme3.jpg)
 

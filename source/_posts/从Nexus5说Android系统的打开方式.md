@@ -6,7 +6,9 @@ tags:
 - BootLoader
 categories:
 - 总结
+thumbnail: http://od68ytlrn.bkt.clouddn.com/android%207.0.jpg
 ---
+
 ![](http://od68ytlrn.bkt.clouddn.com/android%207.0.jpg)
 
 谷歌官方不在对Nexus5手机升级最新的Android7.0系统，但是在XDA论坛上已经有开发者制作了第三方刷机包。刷机之后体验了一段时间，就没怎么用了。后来出现了闪屏的现象，无法判断是否是因为升级系统导致的，也不排除是硬件的原因。

@@ -1,12 +1,15 @@
 title: CSDN博客数据导出
 date: 2018/4/28 14:46:23
+update: 2018/5/16/08:48:23 
 tags:
 - C语言
 - hexo
 - csdn
 categories:
 - 编程
+thumbnail: http://p7tst3obo.bkt.clouddn.com/20180428144406106?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
 ---
+
 
 ### [CSDN2HEXO 源码地址](https://github.com/cyang812/CSDN2HEXO)
 

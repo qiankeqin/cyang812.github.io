@@ -1,4 +1,3 @@
----
 title: WIN10版OneDrive不能登录，显示正在同步其他账户
 date: 2017-05-14 10:48:19
 tags:
@@ -6,7 +5,9 @@ tags:
 - Win10
 categories:
 - 总结
+thumbnail: http://p7tst3obo.bkt.clouddn.com/20170514103312808?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
 ---
+
 
 # 一、错误现象
 前几天通过Win10系统的推送进行了小版本的更新，更新之后需要重写登陆OneDrive，但是登陆却出现错误，提示正在同步其他账户，根据系统的指示在设置中更改账号并不能解决。

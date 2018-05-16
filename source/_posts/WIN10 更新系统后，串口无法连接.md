@@ -1,4 +1,3 @@
----
 title: WIN10 更新系统后，串口无法连接
 date: 2017-04-26 15:41:19
 tags:
@@ -6,7 +5,9 @@ tags:
 - Win10
 categories:
 - 总结
+thumbnail: http://p7tst3obo.bkt.clouddn.com/20170426093429829?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
 ---
+
    
 # 一、问题
 - 1、WIN10 更新系统后，无法连接 ST 开发板上 USB 转串口，但可以正常的下载程序。

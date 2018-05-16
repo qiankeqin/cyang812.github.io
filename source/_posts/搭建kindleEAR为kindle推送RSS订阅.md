@@ -6,7 +6,9 @@ tags:
 - RSS
 categories:
 - 教程
+thumbnail: http://od68ytlrn.bkt.clouddn.com/kindleEAR.png
 ---
+
 
 ![](http://od68ytlrn.bkt.clouddn.com/kindleEAR.png)
 

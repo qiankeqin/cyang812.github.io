@@ -4,7 +4,9 @@ tags:
 - SPI
 categories:
 - 硬件
+thumbnail: http://od68ytlrn.bkt.clouddn.com/SPI%E9%80%9A%E4%BF%A1%E5%8E%9F%E7%90%86.png
 ---
+
 
 ![](http://od68ytlrn.bkt.clouddn.com/SPI%E9%80%9A%E4%BF%A1%E5%8E%9F%E7%90%86.png)
 

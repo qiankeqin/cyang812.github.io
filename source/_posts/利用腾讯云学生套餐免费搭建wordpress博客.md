@@ -8,7 +8,9 @@ tags:
 - 博客
 categories:
 - 教程
+thumbnail: http://p7tst3obo.bkt.clouddn.com/20160708191226398?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
 ---
+
 
 本文是一片个人博客建站教程，利用腾讯云学生套餐搭建免费的WP博客。
 

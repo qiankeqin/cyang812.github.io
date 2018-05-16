@@ -51,8 +51,8 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
+  enable: false
+  line_number: false
   auto_detect: 
   tab_replace:
 
@@ -89,6 +89,13 @@ feed:
 type: atom
 path: atom.xml
 limit: 20
+
+# 代码高亮插件
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'xonokai'
+  line_number: true    # default false
+  #custom_css: 'path/to/your/custom.css'     # optional
 
 # 自定义页面跳过渲染
 #skip_render:

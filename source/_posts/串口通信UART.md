@@ -4,7 +4,9 @@ tags:
 - UART
 categories:
 - 硬件
+thumbnail: http://od68ytlrn.bkt.clouddn.com/UART.jpg
 ---
+
 
 ![](http://od68ytlrn.bkt.clouddn.com/UART.jpg)
 

@@ -4,7 +4,9 @@ tags:
 - source insight
 categories:
 - 总结
+thumbnail: http://p7tst3obo.bkt.clouddn.com/20170311100050765?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
 ---
+
 
 ## 一、使用体验
 ![这里写图片描述](http://p7tst3obo.bkt.clouddn.com/20170311100050765?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10)

@@ -5,7 +5,9 @@ tags:
 - DHT11
 categories:
 - 树莓派
+thumbnail: http://od68ytlrn.bkt.clouddn.com/DHT11-yeelink.png
 ---
+
 ![DHT11](http://od68ytlrn.bkt.clouddn.com/DHT11-yeelink.png)
 
 ## 原理：

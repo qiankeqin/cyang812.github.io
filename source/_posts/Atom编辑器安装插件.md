@@ -5,7 +5,9 @@ tags:
 - 插件
 categories:
 - 总结
+thumbnail: http://p7tst3obo.bkt.clouddn.com/20160828224714977?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
 ---
+
 
 Atom编辑器做的非常酷炫，尤其是插件众多。之前就介绍过一个[非常装逼的插件](http://blog.csdn.net/u011303443/article/details/52049958)。
 

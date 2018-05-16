@@ -4,7 +4,9 @@ tags:
 - python
 categories:
 - 教程
+thumbnail: http://od68ytlrn.bkt.clouddn.com/Python%20split.png
 ---
+
 
 ![](http://od68ytlrn.bkt.clouddn.com/Python%20split.png)
 

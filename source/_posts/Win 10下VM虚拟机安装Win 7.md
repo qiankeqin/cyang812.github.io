@@ -6,7 +6,9 @@ tags:
 - VM虚拟机
 categories:
 - 教程
+thumbnail: http://od68ytlrn.bkt.clouddn.com/win10win7.jpg
 ---
+
 
 ![](http://od68ytlrn.bkt.clouddn.com/win10win7.jpg)
 
