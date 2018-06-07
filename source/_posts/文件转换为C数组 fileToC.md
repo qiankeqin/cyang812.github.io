@@ -2,7 +2,6 @@ title: 文件转换为C数组 fileToC
 date: 2018/5/18 13:34:23
 tags: 
 - python
-- linux
 categories:
 - 嵌入式
 thumbnail: http://p7tst3obo.bkt.clouddn.com/20180518132336617?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
