@@ -21,9 +21,11 @@ unsigned int open_files(const char *in_file_name, const char *out_file_name)
 
 		return 0;
 
-	return 1;	
+	return 1;
 }
 ```
+
+<!-- more -->
 
 正确应该是：
 ```c
@@ -38,7 +40,7 @@ unsigned int open_files(const char *in_file_name, const char *out_file_name)
 
 		return 0;
 
-	return 1;	
+	return 1;
 }
 ```
 
