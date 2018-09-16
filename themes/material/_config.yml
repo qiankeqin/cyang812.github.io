@@ -56,7 +56,7 @@ reading:
 
 # Thumbnail Settings
 thumbnail:
-    purecolor: 
+    purecolor:
     random_amount: 19
 
 # Background Settings
@@ -107,7 +107,7 @@ copyright_since: 2016/04/21
 # You can specify the text you want to show in footer, HTML tag is supported.
 #   For example, you can setup ICP license number as:
 #       '<a href="http://www.miitbeian.gov.cn" rel="nofollow">某ICP备xxxxxxxx号-x</a>'
-footer_text: 
+footer_text:
 
 # Qrcode for redirect at other device
 #    use: choose which method to generate the qrcode for each posts.
@@ -213,11 +213,15 @@ sidebar:
         Tags:
             link: /tags
             icon: label
-            divider: false    
+            divider: true
         timeline:
             link: /timeline
             icon: timeline
-            divider: false    
+            divider: false
+        notes:
+            link: /notes
+            icon: note
+            divider: false
     article_num:
         use: false
         divider: false
@@ -247,8 +251,8 @@ comment:
     livere_data_uid:
     gitment_repo:   # git repo of the hexo
     gitment_owner:  # git repo's owner
-    gitment_client_id:  # github app client id 
-    gitment_client_secret :  # github app client secret 
+    gitment_client_id:  # github app client id
+    gitment_client_secret :  # github app client secret
     valine_leancloud_appId:  # leancloud application app id
     valine_leancloud_appKey:  # leancloud application app key
     valine_notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
@@ -260,7 +264,7 @@ comment:
     valine_guest_info: nick,mail,link #valine comment header info
     gitalk_repo: # git repo of the hexo
     gitalk_owner: # git repo's owner
-    gitalk_client_id: # github app client id 
+    gitalk_client_id: # github app client id
     gitalk_client_secret: # github app client secret
 
 # Search Systems
@@ -301,7 +305,7 @@ vendors:
 #   The new src will have the base domain you configured below.
 #   For example
 #       materialcdn: https://cdn.jsdelivr.net/npm/hexo-material@1.4.0/source
-    materialcdn: 
+    materialcdn:
 
 # Third party library
 #   You can load these files from public cdn.
