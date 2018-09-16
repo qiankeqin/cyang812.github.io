@@ -204,7 +204,7 @@ sidebar:
     categories:
         use: true
         icon: chrome_reader_mode
-        divider: false
+        divider: true
     pages:
         #About:
             #link: /about
@@ -213,7 +213,7 @@ sidebar:
         Tags:
             link: /tags
             icon: label
-            divider: true
+            divider: false
         timeline:
             link: /timeline
             icon: timeline
@@ -223,7 +223,7 @@ sidebar:
             icon: note
             divider: false
     article_num:
-        use: false
+        use: true
         divider: false
     footer:
         divider: true
