@@ -1,5 +1,5 @@
 title: j-link v9 修复记录
-date: 2018/9/13 19:19:23
+date: 2018-9-13 19:19:23
 tags:
 - j-link
 - stm32
@@ -54,7 +54,6 @@ Exec AddFeature FlashDL  ;添加FlashDL
 Exec AddFeature JFlash   ;添加JFlash
 Exec AddFeature RDDI     ;添加RDDI
 ```
-
 
 [方法一附件下载](https://download.csdn.net/download/u011303443/10664113)
 [方法二附件下载](https://download.csdn.net/download/u011303443/10666798)
