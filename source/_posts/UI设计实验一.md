@@ -7,6 +7,8 @@ tags:
 - UI
 categories:
 - Android
+thumbnail:
+http://p7tst3obo.bkt.clouddn.com/ui/3.png?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
 ---
 
 本实验基于 **郭霖《第一行代码》**第三章内容。
@@ -20,15 +22,15 @@ categories:
 > 控件包括 Button、TextView、EditView、ImageView、ProcessBar、AlertDialog、ProgressDialog
 
 **程序截图：**
->![enter description here][1]
+>![][http://p7tst3obo.bkt.clouddn.com/ui/3.png?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10]
 
->![enter description here][2]
+>![][http://p7tst3obo.bkt.clouddn.com/ui/4.png?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10]
 
->![enter description here][3]
+>![][http://p7tst3obo.bkt.clouddn.com/ui/5.png?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10]
 
->![enter description here][4]
+>![][http://p7tst3obo.bkt.clouddn.com/ui/6.png?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10]
 
->![enter description here][5]
+>![][http://p7tst3obo.bkt.clouddn.com/ui/7.png?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10]
 
 
 
@@ -129,10 +131,3 @@ progressDialog.show();
 
 ## 三、关键词
 > Button、TextView、EditView、ImageView、ProcessBar、AlertDialog、ProgressDialog
-
-
-  [1]: http://7xnu89.com1.z0.glb.clouddn.com/hello%20world6.PNG
-  [2]: http://7xnu89.com1.z0.glb.clouddn.com/hello%20world7.PNG
-  [3]: http://7xnu89.com1.z0.glb.clouddn.com/hello%20world3.PNG
-  [4]: http://7xnu89.com1.z0.glb.clouddn.com/hello%20world5.PNG
-  [5]: http://7xnu89.com1.z0.glb.clouddn.com/hello%20world4.PNG
