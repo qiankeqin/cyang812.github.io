@@ -6,13 +6,13 @@ tags:
 - 梯子
 categories:
 - 教程
-thumbnail: http://od68ytlrn.bkt.clouddn.com/CSDN%E5%9B%9E%E6%94%B6%E7%AB%99.png
+thumbnail: http://p7tst3obo.bkt.clouddn.com/CSDN%E5%9B%9E%E6%94%B6%E7%AB%99.png?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10
 ---
 
 
 这是一篇半年前写的教程，之前放在CSDN，最近不知道为什么突然被管理员删除了。现在放在个人博客。
 
-![](http://od68ytlrn.bkt.clouddn.com/CSDN%E5%9B%9E%E6%94%B6%E7%AB%99.png)
+![](http://p7tst3obo.bkt.clouddn.com/CSDN%E5%9B%9E%E6%94%B6%E7%AB%99.png?imageView2/0/interlace/1/q/100|watermark/2/text/Y3lhbmcudGVjaA==/font/Y29uc29sYXM=/fontsize/720/fill/I0Q0RUVGMQ==/dissolve/69/gravity/SouthEast/dx/10/dy/10)
 
 # 原文如下：
 
