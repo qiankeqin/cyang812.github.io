@@ -5,11 +5,11 @@ tags:
 - FreeRTOS
 categories:
 - 硬件
-thumbnail: http://od68ytlrn.bkt.clouddn.com/FreeRTOS.bmp
+thumbnail: http://p7tst3obo.bkt.clouddn.com/FreeRTOS.bmp
 ---
 
 
-![](http://od68ytlrn.bkt.clouddn.com/FreeRTOS.bmp)
+![](http://p7tst3obo.bkt.clouddn.com/FreeRTOS.bmp)
 
 # 一、知识点
 - 1、FreeRTOS是一个轻量级嵌入式操作系统，源码公开，个人和商业都无需授权。

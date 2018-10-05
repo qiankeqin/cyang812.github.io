@@ -5,11 +5,11 @@ tags:
 - Flint OS
 categories:
 - 树莓派
-thumbnail: http://od68ytlrn.bkt.clouddn.com/Flint%20OS.png
+thumbnail: http://p7tst3obo.bkt.clouddn.com/Flint%20OS.png
 ---
 
 
-![](http://od68ytlrn.bkt.clouddn.com/Flint%20OS.png)
+![](http://p7tst3obo.bkt.clouddn.com/Flint%20OS.png)
 
 Flint OS 是基于最新的Linux长期支持版4.4内核版本和最新的稳定版Chromium OS r55开发的操作系统。更多的介绍可以上官网的[视频介绍](https://flintos.com/)。
 

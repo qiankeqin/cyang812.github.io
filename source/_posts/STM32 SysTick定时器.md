@@ -5,11 +5,11 @@ tags:
 - STM32
 categories:
 - STM32
-thumbnail: http://od68ytlrn.bkt.clouddn.com/STM32%20SysTick.png
+thumbnail: http://p7tst3obo.bkt.clouddn.com/STM32%20SysTick.png
 ---
 
 
-![](http://od68ytlrn.bkt.clouddn.com/STM32%20SysTick.png)
+![](http://p7tst3obo.bkt.clouddn.com/STM32%20SysTick.png)
 
 <!-- more -->
 

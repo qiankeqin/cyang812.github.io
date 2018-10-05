@@ -5,11 +5,11 @@ tags:
 - Linux
 categories:
 - 树莓派
-thumbnail: http://od68ytlrn.bkt.clouddn.com/%E6%A0%91%E8%8E%93%E6%B4%BE3B.jpg
+thumbnail: http://p7tst3obo.bkt.clouddn.com/%E6%A0%91%E8%8E%93%E6%B4%BE3B.jpg
 ---
 
 
-![](http://od68ytlrn.bkt.clouddn.com/%E6%A0%91%E8%8E%93%E6%B4%BE3B.jpg)
+![](http://p7tst3obo.bkt.clouddn.com/%E6%A0%91%E8%8E%93%E6%B4%BE3B.jpg)
 
 # 一、工具
 - 1、树莓派3B

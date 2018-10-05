@@ -6,11 +6,11 @@ tags:
 - RSS
 categories:
 - 教程
-thumbnail: http://od68ytlrn.bkt.clouddn.com/kindleEAR.png
+thumbnail: http://p7tst3obo.bkt.clouddn.com/kindleEAR.png
 ---
 
 
-![](http://od68ytlrn.bkt.clouddn.com/kindleEAR.png)
+![](http://p7tst3obo.bkt.clouddn.com/kindleEAR.png)
 
 # 一、简介
 [kindleEAR](https://github.com/cdhigh/KindleEar)是一个运行在Google App Engine(GAE)上的Kindle个人推送服务应用，生成排版精美的杂志模式mobi/epub格式自动每天推送至您的Kindle或其他邮箱。

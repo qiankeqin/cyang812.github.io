@@ -7,11 +7,11 @@ tags:
 - 输入捕获
 categories:
 - STM32
-thumbnail: http://od68ytlrn.bkt.clouddn.com/IR_Tim_Capture.png
+thumbnail: http://p7tst3obo.bkt.clouddn.com/IR_Tim_Capture.png
 ---
 
 
-![这里写图片描述](http://od68ytlrn.bkt.clouddn.com/IR_Tim_Capture.png)
+![这里写图片描述](http://p7tst3obo.bkt.clouddn.com/IR_Tim_Capture.png)
 
 > 之前已经写过了一个使用定时器普通计时功能来识别红外遥控数据的[文章](http://cyang.tech/2017/08/09/IR_Timer/)。本次是使用定时器输入捕获来实现，这种方法比起定时器普通计数来说要更加复杂一些，不过效果会更好。
 

@@ -5,11 +5,11 @@ tags:
 - flyme OS
 categories:
 - 总结
-thumbnail: http://od68ytlrn.bkt.clouddn.com/flyme5_flyme3.jpg
+thumbnail: http://p7tst3obo.bkt.clouddn.com/flyme5_flyme3.jpg
 ---
 
 
-![](http://od68ytlrn.bkt.clouddn.com/flyme5_flyme3.jpg)
+![](http://p7tst3obo.bkt.clouddn.com/flyme5_flyme3.jpg)
 
 很久没关注这款已经过时很久的手机了，前段时间逛贴吧突然发现官方居然升级了flyme5。一定是贴吧呼声太高，也看得出来魅族还算有诚意。
 

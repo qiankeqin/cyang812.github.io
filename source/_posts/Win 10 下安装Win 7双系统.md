@@ -6,10 +6,10 @@ tags:
 - 双系统
 categories:
 - 教程
-thumbnail: http://od68ytlrn.bkt.clouddn.com/win10win7%E5%8F%8C%E7%B3%BB%E7%BB%9F.jpg
+thumbnail: http://p7tst3obo.bkt.clouddn.com/win10win7%E5%8F%8C%E7%B3%BB%E7%BB%9F.jpg
 ---
 
-![](http://od68ytlrn.bkt.clouddn.com/win10win7%E5%8F%8C%E7%B3%BB%E7%BB%9F.jpg)
+![](http://p7tst3obo.bkt.clouddn.com/win10win7%E5%8F%8C%E7%B3%BB%E7%BB%9F.jpg)
 
 上一篇文章说了在Win10下使用VM虚拟机安装双系统的教程。其实虚拟机已经可以解决很多的需求了。但问题在与，网卡的MAC地址不同。在虚拟机里就算使用桥接模式，可以正常链接网络，但还是不能使用正常网卡的MAC地址。
 

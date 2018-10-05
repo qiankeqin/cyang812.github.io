@@ -5,11 +5,11 @@ tags:
 - Android Things
 categories:
 - 树莓派
-thumbnail: http://od68ytlrn.bkt.clouddn.com/Android%20Things.png
+thumbnail: http://p7tst3obo.bkt.clouddn.com/Android%20Things.png
 ---
 
 
-![](http://od68ytlrn.bkt.clouddn.com/Android%20Things.png)
+![](http://p7tst3obo.bkt.clouddn.com/Android%20Things.png)
 
 # 一、必备工具
 - 1、树莓派3

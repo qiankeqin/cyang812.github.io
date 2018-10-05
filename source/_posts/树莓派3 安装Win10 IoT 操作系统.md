@@ -5,11 +5,11 @@ tags:
 - win10 IoT
 categories:
 - 树莓派
-thumbnail: http://od68ytlrn.bkt.clouddn.com/win10%20IoT.png
+thumbnail: http://p7tst3obo.bkt.clouddn.com/win10%20IoT.png
 ---
 
 
-![](http://od68ytlrn.bkt.clouddn.com/win10%20IoT.png)
+![](http://p7tst3obo.bkt.clouddn.com/win10%20IoT.png)
 
 # 一、必备工具
 - 1、树莓派3

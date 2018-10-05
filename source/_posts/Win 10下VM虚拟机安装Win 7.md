@@ -6,11 +6,11 @@ tags:
 - VM虚拟机
 categories:
 - 教程
-thumbnail: http://od68ytlrn.bkt.clouddn.com/win10win7.jpg
+thumbnail: http://p7tst3obo.bkt.clouddn.com/win10win7.jpg
 ---
 
 
-![](http://od68ytlrn.bkt.clouddn.com/win10win7.jpg)
+![](http://p7tst3obo.bkt.clouddn.com/win10win7.jpg)
 
 由于主机为64位系统，近期需要用到32为系统，所以想在Win 10 64位下使用虚拟机安装一个32位的Win 7。以下为安装过程。网上的很多教程，很多还要用到PE，分区什么的。实际上在VM12虚拟机下，已经可以全自动的安装Win 7了，很多的Linux系统也都可以全自动安装。
 
