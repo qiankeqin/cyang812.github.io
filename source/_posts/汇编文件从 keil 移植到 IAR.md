@@ -11,6 +11,8 @@ categories:
 # 一、前言
 汇编文件移植性比较差，不同的内核架构支持的指令集都不一样，就算是相同的内核，在不同的 IDE 下的写法也有可能不一样。同样的文件在 KEIL 下可以正常运行，在 IAR 下就无法编译通过，这就是因为 KEIL 和 IAR 对汇编文件的写法要求是不一样的。KEIL 以及 ADS 下的一些伪指令和写法，在 IAR 下是不支持或者不一样的。具体可以参考 [《EWARM_ADSMigrationGuide.ENU.pdf》](http://ftp.iar.se/WWWfiles/arm/webic/doc/EWARM_ADSMigrationGuide.ENU.pdf)，下文只是我自己在移植过程中的一些修改记录。
 
+<!-- more -->
+
 # 二、修改方法
 
 - 1、修改段和区域的写法
