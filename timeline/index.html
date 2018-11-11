@@ -1,0 +1,5338 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.5.2 -->
+    <script>
+        window.materialVersion = "1.5.2"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            时间线 | 
+        
+        cyang&#39;s blog
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.ico">
+    <link rel="icon" href="/img/favicon.ico">
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" itemprop="description" content="不念过去 不负现在 不畏将来">
+    <meta name="keywords" content="cyang&#39;s blog">
+    <meta name="theme-color" content="#566573">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?ovmV+a8MhM+A3keDFCIyGA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #85C1E9;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #58D68D !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #58D68D !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #58D68D !important;
+  }
+
+  .toTop {
+    background: #95A5A6 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #95A5A6;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #95A5A6;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #95A5A6;
+  }
+
+  .post-toc a:hover {
+    color: #85C1E9;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-image: url(/img/bg.png);
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="cyang&#39;s blog">
+    <meta name="msapplication-starturl" content="https://blog.cyang.tech/timeline/">
+    <meta name="msapplication-navbutton-color" content="#566573">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="cyang&#39;s blog">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/img/favicon.ico">
+
+    <!-- Site Verification -->
+    <meta name="google-site-verification" content="6S4wi0unaNNh_S1g2nLytXKyuQwx1-QD8LPEkd95Pqg" />
+    <meta name="baidu-site-verification" content="QFV8awhVXf" />
+
+    <!-- RSS -->
+    
+        
+            <link rel=alternate type="application/atom+xml" href="https://blog.cyang.tech/atom.xml">
+        
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="https://blog.cyang.tech/timeline/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="时间线 | cyang&#39;s blog">
+    <meta property="og:image" content="/img/favicon.ico">
+    <meta property="og:description" content="不念过去 不负现在 不畏将来">
+    
+
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="https://blog.cyang.tech/timeline/index.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+
+    
+
+    <!-- Analytics -->
+    
+        <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-83208485-2', 'auto');ga('send', 'pageview');
+</script>
+    
+    
+        <script>
+    var _hmt = _hmt || [];
+    (function() {var hm = document.createElement('script');
+    hm.src = 'https://hm.baidu.com/hm.js?d2c5acc36f6eeb6136c9e03c9f52a6c3';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+    
+    
+        <div style="display: none;">
+    <script src="//s95.cnzz.com/z_stat.php?id=1273701913&web_id=1273701913" language="JavaScript"></script>
+</div>
+    
+
+    <!-- Custom Head -->
+    
+
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+
+<!-- Layouts -->
+
+    <!-- Single Timeline Page -->
+    <style>
+	.md-container {
+		width: 90%;
+		max-width: 1170px;
+		margin: 0 auto;
+	}
+	.md-container::after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+	#md-timeline {
+		position: relative;
+		padding: 2em 0;
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+	@media screen and (max-device-width:480px){
+		#md-timeline {
+			margin-top: 6em;
+		}
+	}
+	#md-timeline::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 18px;
+		height: 100%;
+		width: 2px;
+		background: #d7e4ed;
+	}
+	.md-timeline-title {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.md-timeline-content a {
+		text-decoration: none;
+	}
+	.md-timeline-info {
+		height: 20px;
+		width: 100%;
+		margin: 10px 0px;
+	}
+	.md-timeline-info-span {
+		float: right;
+		margin-right: 10px;
+		text-align: right;
+	}
+	.md-timeline-excerpt {
+	    	clear: right; 
+	}
+	@media only screen and (min-width: 1170px) {
+		#md-timeline {
+			margin-top: 3em;
+			margin-bottom: 3em;
+		}
+		#md-timeline::before {
+			left: 50%;
+			margin-left: -2px;
+		}
+	}
+	.md-timeline-block {
+		position: relative;
+		margin: 2em 0;
+	}
+	.md-timeline-block:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.md-timeline-block:first-child {
+		margin-top: 0;
+	}
+	.md-timeline-block:last-child {
+		margin-bottom: 0;
+	}
+	@media only screen and (min-width: 1170px) {
+		.md-timeline-block {
+			margin: 4em 0;
+		}
+		.md-timeline-block:first-child {
+			margin-top: 0;
+		}
+		.md-timeline-block:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.md-timeline-date {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 60px;
+		height: 40px;
+		border-radius: box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+	}
+	.md-timeline-date.blue {
+		background: #0D395F;
+		-webkit-box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.75);
+		box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.75);
+	}
+	@media only screen and (min-width: 1170px) {
+		.md-timeline-date {
+			width: 60px;
+			height: 60px;
+			left: 50%;
+			margin-left: -30px;
+			/* Force Hardware Acceleration in WebKit */
+			-webkit-transform: translateZ(0);
+			-webkit-backface-visibility: hidden;
+		}
+		.cssanimations .md-timeline-date.is-hidden {
+			visibility: hidden;
+		}
+		.cssanimations .md-timeline-date.bounce-in {
+			visibility: visible;
+			-webkit-animation: md-bounce-1 0.6s;
+			-moz-animation: md-bounce-1 0.6s;
+			animation: md-bounce-1 0.6s;
+		}
+	}
+	@-webkit-keyframes md-bounce-1 {
+		0% {
+			opacity: 0;
+			-webkit-transform: scale(0.5);
+		}
+		60% {
+			opacity: 1;
+			-webkit-transform: scale(1.2);
+		}
+		100% {
+			-webkit-transform: scale(1);
+		}
+	}
+	@-moz-keyframes md-bounce-1 {
+		0% {
+			opacity: 0;
+			-moz-transform: scale(0.5);
+		}
+		60% {
+			opacity: 1;
+			-moz-transform: scale(1.2);
+		}
+		100% {
+			-moz-transform: scale(1);
+		}
+	}
+	@keyframes md-bounce-1 {
+		0% {
+			opacity: 0;
+			-webkit-transform: scale(0.5);
+			-moz-transform: scale(0.5);
+			-ms-transform: scale(0.5);
+			-o-transform: scale(0.5);
+			transform: scale(0.5);
+		}
+		60% {
+			opacity: 1;
+			-webkit-transform: scale(1.2);
+			-moz-transform: scale(1.2);
+			-ms-transform: scale(1.2);
+			-o-transform: scale(1.2);
+			transform: scale(1.2);
+		}
+		100% {
+			-webkit-transform: scale(1);
+			-moz-transform: scale(1);
+			-ms-transform: scale(1);
+			-o-transform: scale(1);
+			transform: scale(1);
+		}
+	}
+	.md-timeline-content {
+		position: relative;
+		margin-left: 60px;
+		background: white;
+		padding: 1em;
+		-webkit-box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.75);
+		box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.75);
+	}
+	.md-timeline-content:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.md-timeline-content h2 {
+		color: #303e49;
+	}
+	.md-timeline-content p, .md-timeline-content .md-read-more, .md-timeline-content .md-date {
+		font-size: 13px;
+		font-size: 0.8125rem;
+	}
+	.md-timeline-content .md-read-more, .md-timeline-content .md-date {
+		display: inline-block;
+	}
+	.md-timeline-content p {
+		margin: 1em 0;
+		line-height: 1.6;
+	}
+	.md-timeline-content .md-read-more {
+		float: right;
+		padding: .8em 1em;
+		background: #acb7c0;
+		color: white;
+		border-radius: 0.25em;
+	}
+	.md-date {
+		color: white;
+		text-align: center;
+	}
+	.no-touch .md-timeline-content .md-read-more:hover {
+		background-color: #bac4cb;
+	}
+	.md-timeline-content::before {
+		content: '';
+		position: absolute;
+		top: 16px;
+		right: 100%;
+		height: 0;
+		width: 0;
+		border: 7px solid transparent;
+		border-right: 7px solid white;
+	}
+	@media only screen and (min-width: 768px) {
+		.md-timeline-content h2 {
+			font-size: 20px;
+			font-size: 1.25rem;
+		}
+		.md-timeline-content p {
+			font-size: 16px;
+			font-size: 1rem;
+		}
+		.md-timeline-content .md-read-more {
+			font-size: 14px;
+			font-size: 0.875rem;
+		}
+	}
+	@media only screen and (min-width: 1170px) {
+		.md-date {
+			text-align: center;
+			margin-top: 10px;
+			line-height: 20px;
+		}
+		.md-timeline-content {
+			margin-left: 0;
+			padding: 1.6em;
+			width: 45%;
+		}
+		.md-timeline-content::before {
+			top: 24px;
+			left: 100%;
+			border-color: transparent;
+			border-left-color: white;
+		}
+		.md-timeline-content .md-read-more {
+			float: left;
+		}
+		.md-timeline-block:nth-child(even) .md-timeline-content {
+			float: right;
+		}
+		.md-timeline-block:nth-child(even) .md-timeline-content::before {
+			top: 24px;
+			left: auto;
+			right: 100%;
+			border-color: transparent;
+			border-right-color: white;
+		}
+		.md-timeline-block:nth-child(even) .md-timeline-content .md-read-more {
+			float: right;
+		}
+		.cssanimations .md-timeline-content.is-hidden {
+			visibility: hidden;
+		}
+		.cssanimations .md-timeline-content.bounce-in {
+			visibility: visible;
+			-webkit-animation: md-bounce-2 0.6s;
+			-moz-animation: md-bounce-2 0.6s;
+			animation: md-bounce-2 0.6s;
+		}
+	}
+	@media only screen and (min-width: 1170px) {
+		/* inverse bounce effect on even content blocks */
+		.cssanimations .md-timeline-block:nth-child(even) .md-timeline-content.bounce-in {
+			-webkit-animation: md-bounce-2-inverse 0.6s;
+			-moz-animation: md-bounce-2-inverse 0.6s;
+			animation: md-bounce-2-inverse 0.6s;
+		}
+	}
+	@-webkit-keyframes md-bounce-2 {
+		0% {
+			opacity: 0;
+			-webkit-transform: translateX(-100px);
+		}
+		60% {
+			opacity: 1;
+			-webkit-transform: translateX(20px);
+		}
+		100% {
+			-webkit-transform: translateX(0);
+		}
+	}
+	@-moz-keyframes md-bounce-2 {
+		0% {
+			opacity: 0;
+			-moz-transform: translateX(-100px);
+		}
+		60% {
+			opacity: 1;
+			-moz-transform: translateX(20px);
+		}
+		100% {
+			-moz-transform: translateX(0);
+		}
+	}
+	@keyframes md-bounce-2 {
+		0% {
+			opacity: 0;
+			-webkit-transform: translateX(-100px);
+			-moz-transform: translateX(-100px);
+			-ms-transform: translateX(-100px);
+			-o-transform: translateX(-100px);
+			transform: translateX(-100px);
+		}
+		60% {
+			opacity: 1;
+			-webkit-transform: translateX(20px);
+			-moz-transform: translateX(20px);
+			-ms-transform: translateX(20px);
+			-o-transform: translateX(20px);
+			transform: translateX(20px);
+		}
+		100% {
+			-webkit-transform: translateX(0);
+			-moz-transform: translateX(0);
+			-ms-transform: translateX(0);
+			-o-transform: translateX(0);
+			transform: translateX(0);
+		}
+	}
+	@-webkit-keyframes md-bounce-2-inverse {
+		0% {
+			opacity: 0;
+			-webkit-transform: translateX(100px);
+		}
+		60% {
+			opacity: 1;
+			-webkit-transform: translateX(-20px);
+		}
+		100% {
+			-webkit-transform: translateX(0);
+		}
+	}
+	@-moz-keyframes md-bounce-2-inverse {
+		0% {
+			opacity: 0;
+			-moz-transform: translateX(100px);
+		}
+		60% {
+			opacity: 1;
+			-moz-transform: translateX(-20px);
+		}
+		100% {
+			-moz-transform: translateX(0);
+		}
+	}
+	@keyframes md-bounce-2-inverse {
+		0% {
+			opacity: 0;
+			-webkit-transform: translateX(100px);
+			-moz-transform: translateX(100px);
+			-ms-transform: translateX(100px);
+			-o-transform: translateX(100px);
+			transform: translateX(100px);
+		}
+		60% {
+			opacity: 1;
+			-webkit-transform: translateX(-20px);
+			-moz-transform: translateX(-20px);
+			-ms-transform: translateX(-20px);
+			-o-transform: translateX(-20px);
+			transform: translateX(-20px);
+		}
+		100% {
+			-webkit-transform: translateX(0);
+			-moz-transform: translateX(0);
+			-ms-transform: translateX(0);
+			-o-transform: translateX(0);
+			transform: translateX(0);
+		}
+	}
+</style>
+
+<section id="md-timeline" class="md-container">
+   	   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">10月 25 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/10/25/IAR开发STM32堆栈设置/">IAR开发STM32堆栈设置</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/嵌入式/">嵌入式</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/IAR/">IAR</a>, <a class="tag-link" href="/tags/STACK/">STACK</a>, <a class="tag-link" href="/tags/堆栈/">堆栈</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、前言关于堆栈的定义在此就不赘述，详细内容可以看这篇博客。堆栈溢出会导致野指针，返回地址错误等问题，通常程序已经无法正常运行，进入 HardFault 异常中断。为了避免这种情况，一般会分配较大的空间用做栈，可是如果仅仅为了安全就分配大空间的栈势必导致内存浪费。本文介绍两种获取栈最大消耗的方法，以方便合理设置栈的大小。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">10月 19 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/10/19/汇编文件从 keil 移植到 IAR/">汇编文件从 Keil 移植到 IAR</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/嵌入式/">嵌入式</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/ASM/">ASM</a>, <a class="tag-link" href="/tags/IAR/">IAR</a>, <a class="tag-link" href="/tags/keil/">keil</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、前言汇编文件移植性比较差，不同的内核架构支持的指令集都不一样，就算是相同的内核，在不同的 IDE 下的写法也有可能不一样。同样的文件在 KEIL 下可以正常运行，在 IAR 下就无法编译通过，这就是因为 KEIL 和 IAR 对汇编文件的写法要求是不一样的。KEIL 以及 ADS 下的一些伪指令和写法，在 IAR 下是不支持或者不一样的。具体可以参考 《EWARM_ADSMigrationGuide.ENU.pdf》，下文只是我自己在移植过程中的一些修改记录。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 16 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/09/16/ide 与 leetcode 运行结果不一样/">Ide 与 Leetcode 运行结果不一样</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/C语言/">C语言</a>, <a class="tag-link" href="/tags/leetcode/">leetcode</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							在做 leetcode 的第 15 题， 3Sum 时发现，同样的代码在本地运行的结果是正确的，而在 leetcode 的服务器上结果却是错误的。而且检查了程序中，也并没有使用全局或者静态变量。
+
+通过打印，仔细对比两种环境下的输出发现，原来是代码有一条语句指针指向了数组外边的第一个地址。语句的内容是比较当前地址的值是否和后一个地址的值相同， 由于后一个地址实际上已经发生了溢出，在当前地址为数组最后一个元素时，下一个地址就在数组外边了，这个地址的值是不确定的。在本地调试时，由于两个地址的值不同，所以程序结果正确，而在 leetcode 服务器上运行时，这两个值相同，因此程序最终的结果就错误了。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 13 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/09/13/j-link v9 修复记录/">J-Link V9 修复记录</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/嵌入式/">嵌入式</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/j-link/">j-link</a>, <a class="tag-link" href="/tags/stm32/">stm32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							j-link v9主控: stm32f205RC
+现象
+1、给 M0 下载固件的过程中经常出错，提示找不到M0。需要反复尝试很多次才可以下载。
+2、在一次正常的拔线断电后，再也无法识别，灯也不亮了。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 12 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/08/12/MPEG 简述/">MPEG 简述</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/总结/">总结</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Audio/">Audio</a>, <a class="tag-link" href="/tags/MP3/">MP3</a>, <a class="tag-link" href="/tags/MPEG/">MPEG</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							MPEG AUDIO 简介MP3 是 MPEG Layer3 音频压缩技术的简写，这种技术可在音质极少损伤的情况下获取更好的压缩性能。MP3文件可以被压缩成不同的速率，文件压缩的越小，音质损伤越大。标准的压缩比例为10：1，一段3分钟的音频数据压缩后只需4MB大小。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 02 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/08/02/前导零计数/">前导零计数</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/嵌入式/">嵌入式</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/ARM/">ARM</a>, <a class="tag-link" href="/tags/C语言/">C语言</a>, <a class="tag-link" href="/tags/Xtensa/">Xtensa</a>, <a class="tag-link" href="/tags/嵌入式/">嵌入式</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							前导零计数计算一个 32位 数头部 0 的个数。例如 1 前面有 31 个0， 0 则前面有 32 个0。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 25 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/07/25/fread 返回 0/">Fread 返回 0</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/C语言/">C语言</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							fread 函数一直返回 0，检查过读取的数量不会超过文件大小，错误发生在打开文件时错误。
+错误代码如下：
+FILE *in_file, *out_file;
+unsigned int open_files(const char *in_file_name, const char *out_file_name)
+{
+    if( in_file = fopen(in_file_name, &quot;rb&quot;) == NULL)
+
+        return 0;
+
+    if( out_file = fopen(out_file_name, &quot;wb&quot;) == NULL)
+
+        return 0;
+
+    return 1;
+}
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 21 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/07/21/记一款游戏--《程序员升职记》/">记一款游戏--《程序员升职记》</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/汇编/">汇编</a>, <a class="tag-link" href="/tags/游戏/">游戏</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+最近在玩一款编程类的游戏，叫做《程序员升职记》，steam 平台只需￥36。通过组合几条非常基本的指令，例如加减、自加、自减、比较、跳转，实现一些小功能，例如简单的数值绝对值输出、两数乘法、阶乘运算、反转字符串等。游戏的本质是一款支持 11 条指令，最多支持 24 字节内存的 8 位 cpu 的运行。
+
+这款游戏前面的一些关卡主要在引导和介绍游戏，同时不断给出新的指令，开始只有简单的几条指令，后面会加入对内存的使用，间接寻址的使用，因此可以实现指针的操作。每一关都会给出随机的输入，经过你编写的程序后，算出符合要求的输出。编写程序的过程可以通过单步运行来调试，所以可以很快知道程序在哪里出错，并修改。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">6月 07 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/06/07/pcmToWav/">PCM 转 WAV pcmToWav</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/PCM/">PCM</a>, <a class="tag-link" href="/tags/python/">python</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							PCM 数据无法直接通过播放器打开，因为少了 44 字节的文件头，这里面最主要的信息是描述该 PCM 的采样频率，通道数，以及位数。
+双击 pcmToWav.exe，拖入待转换的 PCM 数据，输入通道数和采样频率，默认使用 16-bit 表示一个采样点。等待程序运行结束，就会生成一个同名的 .wav 文件。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 18 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/05/18/文件转换为C数组 fileToC/">文件转换为C数组 fileToC</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/嵌入式/">嵌入式</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/python/">python</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							fileToCgithub项目地址
+简单说明fileToC 是一款使用 python 编写的程序，可以将任意文件的二进制数据转换为 .C 文件的数组，以便程序编译。
+双击 fileToC.exe 程序，将要转换的 test.any 文件拖入命令行，等待程序自动转换，结束后便可以得到一个和该文件同名的 .c 文件
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">4月 28 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/04/28/CSDN博客数据导出/">CSDN博客数据导出</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/C语言/">C语言</a>, <a class="tag-link" href="/tags/csdn/">csdn</a>, <a class="tag-link" href="/tags/hexo/">hexo</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							CSDN2HEXO 源码地址CSDN2HEXOCSDN2HEXO 是一款基于CSDN开放平台 的 csdn blog 内容下载器， 可以下载博客中的文章内容和图片，文章保存为 markdown 格式，图片可下载无水印图片，并根据文章标题生成文件夹存储相关数据。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">4月 18 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/04/18/C语言中，隐藏结构体的细节/">C语言中，隐藏结构体的细节</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/C语言/">C语言</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							本文转载自 博客园
+我们都知道，在C语言中，结构体中的字段都是可以访问的。或者说，在C++ 中，类和结构体的主要区别就是类中成员变量默认为private，而结构体中默认为public。结构体的这一个特性，导致结构体中封装的数据，实际上并没有封装，外界都可以访问结构体中的字段。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">3月 28 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/03/28/C语言 符号的不同意义/">C语言 符号的不同意义</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/C语言/">C语言</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							C语言的许多符号在不同的上下文环境里有不同的意义，相当于被“重载”了。如下展示了一些符号的不同意义。
+static
+在函数内部，表示该变量的值在各个调用间一直保持延续性。类似与全局变量，区别在于作用域不同。
+在函数外部，表示该函数或者变量只对本文件可见。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">3月 26 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/03/26/IAR 和 keil 使用外部 SDRAM 的区别/">IAR 和 Keil 使用外部 SDRAM 的区别</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/IAR/">IAR</a>, <a class="tag-link" href="/tags/STM32/">STM32</a>, <a class="tag-link" href="/tags/keil/">keil</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							当芯片内部的 SRAM 不够用时，就需要在外部扩展 SDRAM，然后在写程序时将一些比较大的 buffer 定义在外部内存中。在进行正确的配置之后，对外部 SDRAM 的使用，和芯片内部的 SRAM 是一样的，可以直接对 SDRAM 的地址进行读写访问。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">3月 22 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/03/22/C语言 ringBuffer/">C语言 ringBuffer</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/C语言/">C语言</a>, <a class="tag-link" href="/tags/ringBuffer/">ringBuffer</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、 ringBuffer 介绍ringBuffer 称作环形缓冲，也有叫 circleBuffer 的。就是取内存中一块连续的区域用作环形缓冲区的数据存储区。这块连续的存储会被反复使用，向 ringBuffer 写入数据总是从写指针的位置开始，如写到实际存储区的末尾还没有写完，则将剩余的数据从存储区的头开始写；从该 ringBuffer 读出数据也是从读指针的位置开始，如读到实际存储区的末尾还没有读完，则从存储区的头开始读剩下的数据。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">3月 18 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/03/18/C语言 malloc 内存泄漏/">C语言 Malloc 内存泄漏</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/C语言/">C语言</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							错误代码如下：
+int Init_layer2_Decoder(void)
+{
+    Stream = (struct mad_stream*)malloc(sizeof(struct mad_stream));
+    Frame = (struct mad_frame*)malloc(sizeof(struct mad_frame));
+    Synth = (struct mad_synth*)malloc(sizeof(struct mad_synth));
+
+    if(Stream==NULL || Frame==NULL || Synth==NULL)
+    {
+        printf(&quot;init mp2Dec fail!\n&quot;);
+        return -1;
+    }
+
+    mad_stream_init(Stream);
+    mad_frame_init(Frame);
+    mad_synth_init(Synth);
+
+    return 0;
+}
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">3月 12 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/03/12/STM32 硬件CRC和软件CRC速度比较/">STM32 硬件CRC和软件CRC速度比较</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/嵌入式/">嵌入式</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/IAR/">IAR</a>, <a class="tag-link" href="/tags/STM32/">STM32</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、测试条件硬件： STM32L432KC主频： 80MHz编译器： IAR 8.20.1编译选项： High Speed no size constraintsCRC 生成多项式： 0x782f
+二、测试方法软件提前生成CRC表，用于查询。分别使用软件CRC算法和硬件CRC外设对一个缓存进行计算，目的是从该缓存中找到同步头。同步头共11字节，前两个字节为后九个字节的CRC校验值。通过迭代算法依次对11字节进行计算和比较，当找到同步头后返回同步头偏移量。通过时间比较两者之间的速度。
+三、测试结果迭代24464次后，从缓存中找到同步头。不开启编译时间优化时，软件算法用时238ms，硬件CRC用时220ms。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">3月 03 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/03/03/下载 tumblr 标记为喜欢的内容/">下载 Tumblr 标记为喜欢的内容</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/教程/">教程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/python/">python</a>, <a class="tag-link" href="/tags/tumblr/">tumblr</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							源代码发布在github : get_tumblr_likes
+一、介绍本项目使用 python 编写，分析 tumblr 账户中喜欢的内容，给出资源链接，并下载。其中 test.json 是一份 tumblr 返回的喜欢数据的 json 示例，提取里面图片和视频的资源地址后下载，下载的内容如下图。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">3月 03 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/03/03/STM32 无法通过 百分号f 打印浮点数/">STM32 无法通过 百分号F 打印浮点数</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/嵌入式/">嵌入式</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/IAR/">IAR</a>, <a class="tag-link" href="/tags/STM32/">STM32</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、问题使用 IAR 开发 STM32，发现无法通过 printf 重定向到串口打印出浮点数。代码如下：
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">3月 01 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/03/01/STM32L432 CoreMark跑分测试/">STM32L432 CoreMark跑分测试</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/嵌入式/">嵌入式</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/CoreMark/">CoreMark</a>, <a class="tag-link" href="/tags/IAR/">IAR</a>, <a class="tag-link" href="/tags/STM32/">STM32</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							 
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">2月 27 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/02/27/STM32F469 CoreMark跑分测试/">STM32F469 CoreMark跑分测试</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/嵌入式/">嵌入式</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/CoreMark/">CoreMark</a>, <a class="tag-link" href="/tags/IAR/">IAR</a>, <a class="tag-link" href="/tags/STM32/">STM32</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、CoreMark 介绍CoreMark 是一项测试处理器性能的基准测试。代码使用 C 语言写出，包含：列表，数学矩阵操作和状态及 CRC 等运算法则。目前 CoreMark 已迅速成为测量与比较处理器性能的业界基准测试。CoreMark 的得分越高，意味着性能更高。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">1月 06 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/01/06/掌控堆栈以提高系统稳定/">掌控堆栈确保系统稳定 IAR技术手册翻译</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/嵌入式/">嵌入式</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/IAR/">IAR</a>, <a class="tag-link" href="/tags/STM32/">STM32</a>, <a class="tag-link" href="/tags/编程/">编程</a>, <a class="tag-link" href="/tags/翻译/">翻译</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							翻译自 IAR 技术手册
+堆和栈在嵌入式系统中是非常基础的概念。正确设置堆和栈的大小对于系统的稳定可靠非常重要。不正确设置时，系统可能会以某种非常奇怪的方式崩溃而造成灾难性的后果。
+堆和栈的大小必须被程序员设置。通常情况下计算栈使用量都是非常困难的，但是在小型嵌入式系统中却比较容易，并且理解栈的使用也可以解决一些很难发现的运行时错误。另一方面，给栈分配过多的空间也意味着对内存资源的浪费。对于大多数嵌入式项目来说，最坏情况下栈的最大使用量是一个非常重要的信息，因为这是一种非常简单的估计应用程序所需栈大小的方法。堆的溢出通常不会导致严重的错误，但是这并不能带来什么安慰，因为很少有应用程序可以在溢出的情况下恢复。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">1月 05 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/01/05/Nexus5 安装Gapps/">Nexus5 安装 Gapps</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/总结/">总结</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Android/">Android</a>, <a class="tag-link" href="/tags/Gapps/">Gapps</a>, <a class="tag-link" href="/tags/Nexus5/">Nexus5</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、前言Nexus5的第三方ROM非常多，这些第三方ROM一般都不带有某种服务（你懂就好）。一般可通过刷入OpenGapps项目提供的插件包来实现。
+目前使用的魔趣ROM，刷机完成后，system分区已经被使用了93%，Nexus5的 system分区约为1G，这就导致了连体积最小的 OpenGapps pico包都无法安装。返回错误70，表示没有足够的空间安装文件。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">1月 03 2018</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2018/01/03/IAR heap分析/">IAR DLIB Library Heap Usage Statistics IAR Heap 分析</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/嵌入式/">嵌入式</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/IAR/">IAR</a>, <a class="tag-link" href="/tags/STM32/">STM32</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+翻译自 IAR Technical Note 28545 《IAR DLIB Library heap usage statistics》 update 2017/9/22
+
+介绍关于堆的描述在《IAR C/C++ Development Guide for ARM》的 Dynamic memory on the heap 一章中。本技术手册仅描述在应用程序中如何统计堆的使用量。通过跟踪 malloc 或类似函数使用的内存总量来实现。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">12月 06 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/12/06/STM32 USB无法连接电脑/">STM32 USB无法连接电脑</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>, <a class="tag-link" href="/tags/USB/">USB</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+一、说明在调试 STM32 USB device MSC 功能时，使用官方提供的库和示例项目，电脑可以正确识别设备，也可以正常操作。但是将 USB 部分的代码移植到自己的工程后，发现电脑无法正确识别设备，有时会在右下角显示无法识别设备。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">10月 28 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/10/28/树莓派内核升级的三种方式/">树莓派内核升级的三种方式</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/树莓派/">树莓派</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/树莓派/">树莓派</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+一、前言树莓派使用的镜像比较旧了，可以通过三种方式进行升级。一种是本地下载编译升级，即Local build，还有一种采用交叉编译，第三种最简单，输入一条命令就可以升级。下面主要讲第一种方式。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">10月 16 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/10/16/电脑使用模拟器玩手机游戏/">电脑使用模拟器玩手机游戏</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/总结/">总结</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Android/">Android</a>, <a class="tag-link" href="/tags/Nexus5/">Nexus5</a>, <a class="tag-link" href="/tags/township/">township</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+一、前言我玩过的游戏并不少，坚持玩下来的只有一个养成类游戏《梦想小镇》，英文名township。虽说玩了也有好几年了，但基本上是玩一段时间就卸载，过很久又重新下载开始玩。好在这个游戏可以使用脸书账号备份，因此进度没丢。手机屏幕小，玩起来视野比较小，在电脑上鼠标玩起来也会比较爽。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 11 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/09/11/IR_Timer_capture/">STM32 定时器输入捕获实现红外遥控数据接收</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>, <a class="tag-link" href="/tags/定时器/">定时器</a>, <a class="tag-link" href="/tags/红外线/">红外线</a>, <a class="tag-link" href="/tags/输入捕获/">输入捕获</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+
+之前已经写过了一个使用定时器普通计时功能来识别红外遥控数据的文章。本次是使用定时器输入捕获来实现，这种方法比起定时器普通计数来说要更加复杂一些，不过效果会更好。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 19 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/08/19/Arduino Button/">Arduino 按键实验</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/Arduino/">Arduino</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Arduino/">Arduino</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、功能实现按键控制LED亮灭。按下点亮，再次按下熄灭。
+二、原理图
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 09 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/08/09/IR_Timer/">STM32 定时器实现红外遥控数据接收</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>, <a class="tag-link" href="/tags/红外线/">红外线</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 01 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/08/01/leetcode power of three/">Leetcode Power of Three</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/C/">C</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、题目leetcode 上有这么一道题,power of three.
+题目如下：
+
+Given an integer, write a function to determine if it is a power of three.
+
+要求：
+
+Could you do it without using any loop / recursion?
+
+就是说给出一个数，判断该数是否是 3 的 n 次方。且最好不要使用循环或者迭代来实现。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 01 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/08/01/STM32_BRSS_BSS/">STM32 BSRR BRR ODR 寄存器</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、用法经常会看到类似如下的宏定义语句，用于对已经初始化后的 IO 口输出高、低电平。
+#define SET_BL_HIGH()           GPIOA-&gt;BSRR=GPIO_Pin_0 
+#define SET_BL_LOW()            GPIOA-&gt;BRR=GPIO_Pin_0
+
+其作用类似于如下两个库函数，
+void GPIO_SetBits(GPIO_Typedef* GPIOx， uint16_t GPIO_Pin)
+void GPIO_ResetBits(GPIO_Typedef* GPIOx, uint16_t GPIO_Pin)
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 29 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/05/29/hexo博客更换评论记录/">Hexo博客更新主题记录</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/总结/">总结</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Disqus/">Disqus</a>, <a class="tag-link" href="/tags/多说/">多说</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							1、更换评论多说将于6月1号关闭，因此将评论系统从多说转到Disqus。更新的方法很简单，升级next主题，最新版的主题中自带了Disqus的评论，只需填入用户名即可。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 17 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/05/17/utf-8 转 unicode/">Utf-8 to Unicode</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/嵌入式/">嵌入式</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/C/">C</a>, <a class="tag-link" href="/tags/Unicode/">Unicode</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、utf-8 unicode utf-16
+1、unicode 使用两字节表示字符。
+2、utf-8 和 utf-16均为变长编码，使用1~4个字节来表示字符。
+3、utf-8 和 utf-16是不一样的，汉子使用 unicode 表示是两个字节，utf-8 是三个字节，utf-16 是两个字节。
+4、utf-8 只是 unicode的一种实现方式，类似的方式还有 utf-16 和 utf-32。
+5、Unicode是国际组织制定的可以容纳世界上所有文字和符号的字符编码方案。目前的Unicode字符分为17组编排，0x0000 至 0xFFFF，每组称为平面（Plane），而每平面拥有65536个码位，共1114112个。然而目前只用了少数平面。UTF-8、UTF-16、UTF-32都是将数字转换到程序数据的编码方案。
+6、UCS-2用两个字节编码，UCS-4用4个字节编码。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 14 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/05/14/WIN10版OneDrive不能登录，显示正在同步其他账户/">WIN10版OneDrive不能登录，显示正在同步其他账户</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/总结/">总结</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/OneDrive/">OneDrive</a>, <a class="tag-link" href="/tags/Win10/">Win10</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、错误现象前几天通过Win10系统的推送进行了小版本的更新，更新之后需要重写登陆OneDrive，但是登陆却出现错误，提示正在同步其他账户，根据系统的指示在设置中更改账号并不能解决。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">4月 26 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/04/26/WIN10 更新系统后，串口无法连接/">WIN10 更新系统后，串口无法连接</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/总结/">总结</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/UART/">UART</a>, <a class="tag-link" href="/tags/Win10/">Win10</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、问题
+1、WIN10 更新系统后，无法连接 ST 开发板上 USB 转串口，但可以正常的下载程序。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">4月 12 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/04/12/C 语言 查找字符串子串/">C 语言 查找字符串子串</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/C/">C</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">4月 06 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/04/06/制作字库/">制作字库（Bin文件合并 C2BIN）</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/嵌入式/">嵌入式</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/C/">C</a>, <a class="tag-link" href="/tags/字库/">字库</a>, <a class="tag-link" href="/tags/嵌入式/">嵌入式</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+一、点阵文件生成
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">3月 21 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/03/21/ci 测试/">Ci 测试</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/总结/">总结</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/blog/">blog</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							 
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">3月 20 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/03/20/I2C Bit-Bang 程序分析/">I2C Bit-Bang 程序分析</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/IIC/">IIC</a>, <a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							 
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">3月 19 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/03/19/Source Insight 更新4.0版本/">Source Insight 更新4.0版本</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/总结/">总结</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/source-insight/">source insight</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、使用体验source insight 终于大版本更新了。我开始使用 SI 是去年，那时候是 3.5 的版本，就觉得这是一款神器，搭配 Keil 和 IAR 等编译软件使用，可以提高单片机编程的效率。SI 有很多的特性是 keil 和 IAR 不具备的，作为一个代码编辑软件来说，很多功能确实很强大。只不过官方久久不更新，所以很多现在主流 IDE 或者代码编辑器的一些实用功能都不支持。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">3月 10 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/03/10/f_open()使用错误记录/">F_open()使用错误记录</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/FAT32/">FAT32</a>, <a class="tag-link" href="/tags/嵌入式/">嵌入式</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、现象调用函数 f_open() 后，程序崩溃，调试后发现，单片机产生硬件中断，即软件跳入如下部分：
+void HardFault_Handler(void)
+{
+  /* Go to infinite loop when Hard Fault exception occurs */
+  while (1)
+  {
+      BSP_LED_Toggle(LED3);
+  }
+}
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">3月 02 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/03/02/STM32 SysTick定时器/">STM32 SysTick定时器</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>, <a class="tag-link" href="/tags/嵌入式/">嵌入式</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">3月 02 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/03/02/STM32 延时函数高级用法分析/">STM32 延迟函数高级用法</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>, <a class="tag-link" href="/tags/嵌入式/">嵌入式</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">2月 28 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/02/28/STM32 延时函数解析/">STM32 延迟函数解析</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>, <a class="tag-link" href="/tags/嵌入式/">嵌入式</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、函数原型STM32官方提供的函数库中，可以找到类似于 HAL_Delay() 这样的函数。这个函数的就是通过使用定时器，达到一个较为精确的时间延迟，提供给用户调用。
+这个函数一般包含在类似于 stm32f4xx_hal.c 这样的函数中。函数原型如下：
+__weak void HAL_Delay(__IO uint32_t Delay)
+{
+  uint32_t tickstart = 0U;
+  tickstart = HAL_GetTick();
+  while((HAL_GetTick() - tickstart) &lt; Delay)
+  {
+  }
+}
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">2月 24 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/02/24/FatFs 使用中文长文件名/">FatFs 使用中文长文件名</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/FAT32/">FAT32</a>, <a class="tag-link" href="/tags/嵌入式/">嵌入式</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、说明
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">2月 07 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/02/07/树莓派3 安装OSMC系统搭建媒体服务/">树莓派3 安装OSMC系统搭建媒体服务</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/树莓派/">树莓派</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/OSMC/">OSMC</a>, <a class="tag-link" href="/tags/树莓派/">树莓派</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							OSMC是一款基于 Linux 免费开源的媒体播放系统。目前支持树莓派1、2、3、zero,vero,Apple TV这几款硬件平台。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">2月 04 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/02/04/树莓派3 安装Flint OS/">树莓派3 安装Flint OS</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/树莓派/">树莓派</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Flint-OS/">Flint OS</a>, <a class="tag-link" href="/tags/树莓派/">树莓派</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+Flint OS 是基于最新的Linux长期支持版4.4内核版本和最新的稳定版Chromium OS r55开发的操作系统。更多的介绍可以上官网的视频介绍。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">1月 23 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/01/23/JRE运行环境出错导致无法安装STM32CubeMX解决方法/">JRE运行环境出错导致无法安装STM32CubeMX解决方法</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/总结/">总结</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/JRE/">JRE</a>, <a class="tag-link" href="/tags/STM32/">STM32</a>, <a class="tag-link" href="/tags/STM32CubeMX/">STM32CubeMX</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">1月 16 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/01/16/搭建kindleEAR为kindle推送RSS订阅/">搭建kindleEAR为kindle推送RSS订阅</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/教程/">教程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Google/">Google</a>, <a class="tag-link" href="/tags/RSS/">RSS</a>, <a class="tag-link" href="/tags/kindle/">kindle</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+一、简介kindleEAR是一个运行在Google App Engine(GAE)上的Kindle个人推送服务应用，生成排版精美的杂志模式mobi/epub格式自动每天推送至您的Kindle或其他邮箱。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">1月 12 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/01/12/使用 HAProxy 加速 Shadowsocks/">使用 HAProxy 加速 Shadowsocks</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/教程/">教程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/HAProxy/">HAProxy</a>, <a class="tag-link" href="/tags/Shadowsocks/">Shadowsocks</a>, <a class="tag-link" href="/tags/vps/">vps</a>, <a class="tag-link" href="/tags/服务器/">服务器</a>, <a class="tag-link" href="/tags/梯子/">梯子</a>, <a class="tag-link" href="/tags/腾讯云/">腾讯云</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							前几天一篇放在CSDN介绍搭梯子的文章被删除了，把文章重新放在个人博客后，又重新用起了自己的SS服务，发现速度不如之前了，可能是vps服务供应商的问题。之前在电脑端比较常使用XX-Net的梯子，手机端使用的也是别人的SS服务，因此很少使用自己的SS服务。不过，两天前，手机上一直使用的SS服务被开发者停用了，所以只好用回自己的。也因此有了这篇使用 HAProxy 加速 shadowsocks 的教程。关于 shadowsocks 服务的搭建，可以看这篇文章。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">1月 12 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/01/12/树莓派3 安装谷歌物联网系统-Android Things/">树莓派3 安装谷歌物联网系统-Android Things</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/树莓派/">树莓派</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Android-Things/">Android Things</a>, <a class="tag-link" href="/tags/树莓派/">树莓派</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+一、必备工具
+1、树莓派3
+2、Android Things安装镜像
+3、Windows 10 IoT 核心版仪表板
+4、内存卡（推荐8G以上）
+5、显示器（可通过hdmi转vga线连接到vga显示器）
+6、Android Studio
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">1月 11 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/01/11/树莓派3 安装Win10 IoT 操作系统/">树莓派3 安装Win10 IoT 操作系统</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/树莓派/">树莓派</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/win10-IoT/">win10 IoT</a>, <a class="tag-link" href="/tags/树莓派/">树莓派</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+一、必备工具
+1、树莓派3
+2、Windows 10 IoT Core Insider Preview
+3、Windows 10 IoT 核心版仪表板
+4、内存卡（推荐8G以上）
+5、显示器（可通过hdmi转vga线连接到vga显示器）
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">1月 08 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/01/08/38块搞定一年的vps和shadowsocks服务/">38块搞定一年的vps和shadowsocks服务</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/教程/">教程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/shadowsocks/">shadowsocks</a>, <a class="tag-link" href="/tags/vps/">vps</a>, <a class="tag-link" href="/tags/梯子/">梯子</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							这是一篇半年前写的教程，之前放在CSDN，最近不知道为什么突然被管理员删除了。现在放在个人博客。
+
+原文如下：
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">1月 02 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/01/02/树莓派使用DHT11和yeelink实现远程获取环境信息/">树莓派使用DHT11和yeelink实现远程获取环境信息</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/树莓派/">树莓派</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/DHT11/">DHT11</a>, <a class="tag-link" href="/tags/树莓派/">树莓派</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+原理：树莓派使用DHT11传感器获取环境温湿度信息，上传至yeelink服务器。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">1月 01 2017</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2017/01/01/树莓派使用USB摄像头yeelink实现监控/">树莓派使用USB摄像头和yeelink实现监控</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/树莓派/">树莓派</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/树莓派/">树莓派</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							原理：树莓派安装官方raspbian系统，安装USB摄像头驱动，定时获取摄像头数据保存为图片，上传至yeelink服务器。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">12月 18 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/12/18/从Nexus5说Android系统的打开方式/">从Nexus5说Android系统的打开方式</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/总结/">总结</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Android/">Android</a>, <a class="tag-link" href="/tags/BootLoader/">BootLoader</a>, <a class="tag-link" href="/tags/Nexus5/">Nexus5</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+谷歌官方不在对Nexus5手机升级最新的Android7.0系统，但是在XDA论坛上已经有开发者制作了第三方刷机包。刷机之后体验了一段时间，就没怎么用了。后来出现了闪屏的现象，无法判断是否是因为升级系统导致的，也不排除是硬件的原因。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">12月 13 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/12/13/Kindle Paperwhite 2 USB升级/">Kindle Paperwhite 2 USB升级</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/教程/">教程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Kindle/">Kindle</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							关于更新方法具体请看Kindle Paperwhite2（第6代）5.7.2.1固件升级教程
+一、升级过程
+下载
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">12月 02 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/12/02/C语言宏定义的几种简单用法/">C语言宏定义的几种简单用法</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/C语言/">C语言</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+1、计算数组的大小
+#define countof(a) (sizeof(a)/sizeof(*(a)))
+
+
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">11月 28 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/11/28/BootLoader浅析/">BootLoader浅析</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/BootLoader/">BootLoader</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							关于Bootloader，从书上的文字描述，很难理解这个名词是什么，有什么用。这次用到了，算是有了更进一步的认识。
+一、知识点
+1、BootLoader就是单片机启动时候运行的一段小程序，这段程序负责单片机固件的更新，也就是单片机选择性的自己给自己下程序。可以更新，也可以不更新，更新的话，BootLoader更新完程序后，跳转到新程序运行；不更新的话，BootLoader直接跳转到原来的程序去运行。
+2、BootLoader更新完程序后并不擦除自己，下次启动后依然先运行BootLoader程序，又可以选择性的更新或者不更新程序，所以BootLoader就是用来管理单片机程序的更新。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">11月 03 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/11/03/Python 分割文件为指定大小/">Python分割文件为指定大小</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/教程/">教程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/python/">python</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+本文参考python学习–大文件分割与合并
+一、说明1、使用python将文件分割成指定大小，便于传输。例如，在文件大小大于U盘大小时，可使用改程序将数据进行切割。2、本程序在每一个切割文件的前四个字节，添加了表示分割后的文件序号以及分割后的文件总数。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">11月 03 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/11/03/static  __inline 在IAR和keil开发环境下的差别/">Static  __Inline 在IAR和keil开发环境下的差别</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/C语言/">C语言</a>, <a class="tag-link" href="/tags/IAR/">IAR</a>, <a class="tag-link" href="/tags/STM32/">STM32</a>, <a class="tag-link" href="/tags/keil/">keil</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							static  __inline这条语句在IAR和Keil下的需要写成不同的形式，否则会报错。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">11月 02 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/11/02/STM32固件库 assert_param函数/">STM32固件库 Assert_param函数</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+一、知识点-1、固件函数库通过检查库函书的输入来实现运行时间错误侦测。通过使用宏assert_param来实现运行时间检测。所有要求输入参数的函数都使用这个宏。它可以检查输入参数是否在允许的范围之内。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">10月 06 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/10/06/SPI总线协议/">SPI总线协议</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/SPI/">SPI</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+一、知识点
+1、SPI：Serial Peripheral Interface，串行外围设备接口，是一种高速，半/全双工，同步的通信总线。
+2、SPI接口主要用于EEPROM，FLASH，实时时钟，AD转换器等外接设备。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">10月 05 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/10/05/串口通信UART/">串口通信UART</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/UART/">UART</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+一、知识点
+1、串口通信是一种异步，串行，采用电平信号的通信方式。也就是串口通信的双方没有统一的时钟信号，采用信号线的电平值表示0、1信息，并且通过串行的方式每次仅发送一位数据。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">10月 05 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/10/05/通信原理基础/">通信原理基础</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/IIC/">IIC</a>, <a class="tag-link" href="/tags/SPI/">SPI</a>, <a class="tag-link" href="/tags/UART/">UART</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+一、知识点
+1、通信中最重要的两个方面：信息表示、解析方法和信息的传输方式。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 30 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/30/STM32 IIC EEPROM实验/">STM32 IIC EEPROM实验</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/EEPROM/">EEPROM</a>, <a class="tag-link" href="/tags/IIC/">IIC</a>, <a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+一、项目说明利用 STM32 的普通 IO 口模拟 IIC 时序，并实现和 24C02 之间的双向通信，并将结果通过串口printf 输出。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 30 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/30/IIC总线协议/">IIC总线协议</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/IIC/">IIC</a>, <a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+
+关于IIC的其他说明已在《STM32总线实验》中有过介绍。
+
+一、知识点
+1、IIC是一种串行，同步，非差分，低速率的总线连接方式。仅有两根线构成SCK，一根时钟线SDA，用于同步收发双方之间的通信频率；一根数据线，用于传输数据。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 24 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/24/Chrome浏览器常用插件（三）/">Chrome浏览器常用插件（三）</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/总结/">总结</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/chrome/">chrome</a>, <a class="tag-link" href="/tags/插件/">插件</a>, <a class="tag-link" href="/tags/浏览器/">浏览器</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							接《Chrome浏览器安装，常用插件（一）》
+接《Chrome浏览器常用插件（二）》
+10、拖拽搜索这是一款划词搜索的增强插件，非常的实用，使用频次也非常的高。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 24 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/24/《以色列2：在危机中生存》/">《以色列2：在危机中生存》</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/读书/">读书</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/书籍/">书籍</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							上帝在六天之内创造了世界，而以色列在六天之内重塑了中东的政治版图。
+《以色列2：在危机中生存》
+在这块面积不足一平方公里的区域内，密密麻麻地分布着多处被基督教、伊斯兰教和犹太教视为圣迹的地方。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 22 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/22/MX3从flyme5降级至flyme3/">MX3从flyme5降级至flyme3</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/总结/">总结</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/MX3/">MX3</a>, <a class="tag-link" href="/tags/flyme-OS/">flyme OS</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+很久没关注这款已经过时很久的手机了，前段时间逛贴吧突然发现官方居然升级了flyme5。一定是贴吧呼声太高，也看得出来魅族还算有诚意。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 22 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/22/《以色列：一个国家的诞生》/">《以色列：一个国家的诞生》</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/读书/">读书</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/书籍/">书籍</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							从来没有一个国家，在诞生之后如此短的时间内就遭到了如此多国家的集体入侵。
+《以色列：一个国家的诞生》
+为了讨好美国政府中的犹太人群体，英国人在签署了赛克斯-皮克特协定的第二年，也就是1917年11月2日又发表了贝尔福宣言。在宣言中，英国政府承诺将帮助犹太人在巴勒斯坦建立一个民族家园。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 19 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/19/C语言字符实验/">C语言字符实验</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/C语言/">C语言</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							实验一代码
+#include &quot;stdio.h&quot;
+
+main(){
+    int c;
+    while( ( c = getchar() )!= &#39;\n&#39; ){
+        switch (c-&#39;2&#39;){
+            case 0:
+            case 1:
+                putchar( c+4 );
+            case 2:
+                putchar( c+4 );
+                break;
+            case 3:
+                putchar( c+3 );
+            default:
+                putchar( c+2 );
+                break;
+        }
+    }
+    printf(&quot;\n&quot;);
+}
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 17 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/17/记一次超强台风——“莫兰蒂”/">记一次超强台风——“莫兰蒂”</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/感受/">感受</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/台风/">台风</a>, <a class="tag-link" href="/tags/莫兰蒂/">莫兰蒂</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+这是我长这么大第一次如此地接近死亡。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 13 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/13/FAT文件系统/">FAT文件系统</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/FAT32/">FAT32</a>, <a class="tag-link" href="/tags/嵌入式/">嵌入式</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+
+文件系统就是对数据进行存储和管理的方式，是为了长久的存储和访问数据而为用户提供的一种基于文件和目录的存储机制。
+
+一、知识点文件系统
+1、对硬盘进行格式化的过程就是在为硬盘写入文件系统。
+2、文件系统种类繁多，但有一些共性：
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 13 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/13/FreeRTOS 学习笔记（一） OS基础/">FreeRTOS 学习笔记（一） OS基础</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/FreeRTOS/">FreeRTOS</a>, <a class="tag-link" href="/tags/嵌入式/">嵌入式</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+一、知识点
+1、操作系统的主要功能是为应用程序的运行创造良好的环境。
+2、操作系统的主要模块可以分为：
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 13 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/13/FreeRTOS 学习笔记（二） 任务管理/">FreeRTOS 学习笔记（二） 任务管理</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/FreeRTOS/">FreeRTOS</a>, <a class="tag-link" href="/tags/嵌入式/">嵌入式</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+一、知识点
+1、FreeRTOS是一个轻量级嵌入式操作系统，源码公开，个人和商业都无需授权。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 11 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/11/Win 10 下安装Win 7双系统/">Win 10下安装Win 7双系统</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/教程/">教程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Win10/">Win10</a>, <a class="tag-link" href="/tags/Win7/">Win7</a>, <a class="tag-link" href="/tags/双系统/">双系统</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+上一篇文章说了在Win10下使用VM虚拟机安装双系统的教程。其实虚拟机已经可以解决很多的需求了。但问题在与，网卡的MAC地址不同。在虚拟机里就算使用桥接模式，可以正常链接网络，但还是不能使用正常网卡的MAC地址。
+一、安装说明
+1、在Win 10的情况下，将磁盘进行分区，划分一个新的分区，大小依据个人情况而定，最好是50G，我这里只分了30G.
+2、由于我的整个磁盘分区表是MBR，所以可以直接安装Win7 32位系统。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 11 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/11/Win 10下VM虚拟机安装Win 7/">Win 10下VM虚拟机安装Win 7</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/教程/">教程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/VM虚拟机/">VM虚拟机</a>, <a class="tag-link" href="/tags/Win10/">Win10</a>, <a class="tag-link" href="/tags/Win7/">Win7</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+由于主机为64位系统，近期需要用到32为系统，所以想在Win 10 64位下使用虚拟机安装一个32位的Win 7。以下为安装过程。网上的很多教程，很多还要用到PE，分区什么的。实际上在VM12虚拟机下，已经可以全自动的安装Win 7了，很多的Linux系统也都可以全自动安装。
+1、版本说明
+1、VM虚拟机VMware® Workstation 12 Pro
+2、Win 7Windows 7 Enterprise (x86) - DVD (Chinese-Simplified) （msdn 上下载的原装镜像文件。）
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 11 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/11/树莓派使用USB摄像头和motion实现监控/">树莓派使用USB摄像头和motion实现监控</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/树莓派/">树莓派</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Linux/">Linux</a>, <a class="tag-link" href="/tags/树莓派/">树莓派</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+一、工具
+1、树莓派3B
+2、USB摄像头
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 07 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/07/ZigBee学习笔记（五） CC2530 GPIO/">ZigBee学习笔记（五） CC2530 GPIO</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/CC2530/">CC2530</a>, <a class="tag-link" href="/tags/ZigBee/">ZigBee</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、知识点
+1、C2530有21个输入输出引脚，可以配置为通用数字I/O或外设I/O信号，另外一些I/O端口还可以连接到ADC，定时器或USART外设。I/O口功能的实现是通过一系列的寄存器配置，由软件实现。
+
+（1）端口0即P0口，有8位端口，分别是P0_0~P0_7.
+（2）端口1即P1口，有8位端口，分别是P0_0~P0_7.
+（3）端口2即P2口，有5位端口，分别是P0_0~P0_4.
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 07 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/07/ZigBee学习笔记（六） CC2530 时钟 电源管理/">ZigBee学习笔记（六） CC2530 时钟 电源管理</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/CC2530/">CC2530</a>, <a class="tag-link" href="/tags/ZigBee/">ZigBee</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、知识点
+1、CC2530有四个振荡器，分别为16MHz内部RC振荡器、32KHz内部RC振荡器，32MHz外部晶振和32khz外部晶振。
+2、系统时钟可以同寄存器来选择使用32MHz的外部晶振或者16MHz的内部RC振荡器。但是当使用RF收发器时，系统时钟必须选择高速并且稳定的32MHz外部晶振。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 07 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/07/《一个叫欧维的男人决定去死》/">《一个叫欧维的男人决定去死》</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/读书/">读书</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/小说/">小说</a>, <a class="tag-link" href="/tags/电影/">电影</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							每个人的生命中总有那么一刻决定他们将成为什么样的人：是不是愿意让别人骑在头上。
+《一个叫欧维的男人决定去死》
+人们总说欧维眼里的世界非黑即白，而她是彩色的，他的全部色彩。
+“一个人的品质是由他的行为决定的，而不是他说的话。”欧维说。
+“总经理还说，你九岁那年没有拿那个钱包，现在他也不相信你会偷任何东西。让他把一个正人君子的孩子送到大街上就因为那孩子也是个正人君子，这简直就是造孽。”
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 06 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/06/ZigBee学习笔记（三）/">ZigBee学习笔记（三）</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/CC2530/">CC2530</a>, <a class="tag-link" href="/tags/ZigBee/">ZigBee</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、知识点
+1、ZigBee的协议栈常用的有两个版本，即德州仪器公司的Z-stack协议栈和飞思卡尔的BeeStack协议栈。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 06 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/06/ZigBee学习笔记（四） CC2530/">ZigBee学习笔记（四） CC2530</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/CC2530/">CC2530</a>, <a class="tag-link" href="/tags/ZigBee/">ZigBee</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							 
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 04 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/04/Chrome浏览器常用插件（二）/">Chrome浏览器常用插件（二）</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/总结/">总结</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/chrome/">chrome</a>, <a class="tag-link" href="/tags/插件/">插件</a>, <a class="tag-link" href="/tags/浏览器/">浏览器</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							接《Chrome浏览器安装，常用插件（一）》
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 02 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/02/ZigBee 学习笔记（二）/">ZigBee学习笔记（二）</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/CC2530/">CC2530</a>, <a class="tag-link" href="/tags/ZigBee/">ZigBee</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							 
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 02 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/02/ZigBee 学习笔记（一）/">ZigBee学习笔记（一）</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/硬件/">硬件</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/CC2530/">CC2530</a>, <a class="tag-link" href="/tags/ZigBee/">ZigBee</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							 
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 01 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/01/STM32学习笔记（八） GPIO/">STM32学习笔记（八） GPIO</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+1、STM32的每个IO端口都有7个寄存器来控制。分别为：
+
+
+
+
+功能
+名称
+位数
+
+
+
+
+配置寄存器1
+CRL
+32
+
+
+配置寄存器2
+CRH
+32
+
+
+数据寄存器1
+IDR
+32
+
+
+数据寄存器2
+ODR
+32
+
+
+置位复位寄存器
+BSRR
+32
+
+
+复位寄存器
+BRR
+16
+
+
+锁定寄存器
+LCRR
+32
+
+
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">9月 01 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/09/01/java和c++区别（一）/">Java和c++的区别（一）</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/总结/">总结</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Clion/">Clion</a>, <a class="tag-link" href="/tags/Idea/">Idea</a>, <a class="tag-link" href="/tags/c/">c++</a>, <a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							在C++中，对参数的引用有两种方式，一种为引用传递，一种为复制传递。引用传递的方式比较快，因为这种方式不必复制整个参数，同时这种方式可以对参数进行修改。需要在形参声明之前加一个符号（&amp;）来将其变为引用传递。而复制传递的方式，比较安全，因为在引用函数中不会对原值进行修改。详情见下面的例子。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 28 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/08/28/Atom编辑器安装插件/">Atom编辑器安装插件</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/总结/">总结</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Atom/">Atom</a>, <a class="tag-link" href="/tags/插件/">插件</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							 
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 27 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/08/27/Chrome浏览器安装，常用插件（一）/">Chrome浏览器安装，常用插件（一）</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/总结/">总结</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/chrome/">chrome</a>, <a class="tag-link" href="/tags/插件/">插件</a>, <a class="tag-link" href="/tags/浏览器/">浏览器</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							最近更新了浏览器，在此写一篇文章，记录下Chrome浏览器的常用插件。
+一、Chrome安装1、建议直接官方下载地址，会自动根据操作系统自动选择32位/64位的安装器，大概1M，打开后会自动的在线安装。若网速不行也可以百度，从百度软件中心下载离线安装包。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 27 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/08/27/hexo安装RSS插件/">hexo安装RSS插件</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/教程/">教程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/RSS/">RSS</a>, <a class="tag-link" href="/tags/hexo/">hexo</a>, <a class="tag-link" href="/tags/插件/">插件</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、步骤1、安装插件。进入本地hexo目录，打开git bash。输入以下命令
+npm install hexo-generator-feed
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 24 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/08/24/关于路由器，锐捷破解，mentohust的使用/">关于路由器，锐捷破解，Mentohust的使用</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/总结/">总结</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/linux/">linux</a>, <a class="tag-link" href="/tags/mentohust/">mentohust</a>, <a class="tag-link" href="/tags/路由器/">路由器</a>, <a class="tag-link" href="/tags/锐捷/">锐捷</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、意图最近想要通过路由器直接通过锐捷的认证，然后连接VPN，然后发送WIFI信号。这篇博客主要是讲一下这之间出现的问题，以及解决情况。
+二、基本情况锐捷 V4.96
+三、通过路由器认证锐捷通过路由器认证锐捷的方式有两种，一种是使用mentohust这款软件认证，另一种就是通过校园锐捷提供的Linux版本认证客户端。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 16 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/08/16/兔子问题/">兔子问题</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Pycharm/">Pycharm</a>, <a class="tag-link" href="/tags/python/">python</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、说明古典问题：有一对兔子，从出生后第3个月起每个月都生一对兔子，小兔子长到第三个月后每个月又生一对兔子，假如兔子都不死，问每个月的兔子总数为多少？
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 16 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/08/16/判断天数/">判断天数</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Pycharm/">Pycharm</a>, <a class="tag-link" href="/tags/python/">python</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、说明输入某年某月某日，判断这一天是这一年的第几天？
+二、python代码
+1、这题用到了python的数字类型转换。写法和其他语言有不同，例如int(abc)。
+2、用到了python的列表[]。列表中的元素是有序排列，可读可写的。也可以使用元组，元祖也是有序排列，区别在于只读不写。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 16 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/08/16/计算斐波那契数列/">计算斐波那契数列</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Pycharm/">Pycharm</a>, <a class="tag-link" href="/tags/python/">python</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							 
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 13 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/08/13/Power Light 项目/">Power Light 项目</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/Android/">Android</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Android/">Android</a>, <a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							 
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 12 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/08/12/guess number 猜数字/">Guess Number 猜数字</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Pycharm/">Pycharm</a>, <a class="tag-link" href="/tags/python/">python</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、说明使用python编写的猜数字游戏
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 12 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/08/12/奖金分配/">奖金分配</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Pycharm/">Pycharm</a>, <a class="tag-link" href="/tags/python/">python</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、说明企业发放的奖金根据利润提成。利润(I)低于或等于10万元时，奖金可提10%；利润高于10万元，低于20万元时，低于10万元的部分按10%提成，高于10万元的部分，可可提成7.5%；20万到40万之间时，高于20万元的部分，可提成5%；40万到60万之间时高于40万元的部分，可提成3%；60万到100万之间时，高于60万元的部分，可提成1.5%，高于100万元时，超过100万元的部分按1%提成，从键盘输入当月利润I，求应发放奖金总数？
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 12 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/08/12/寻找数字/">寻找数字</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Pycharm/">Pycharm</a>, <a class="tag-link" href="/tags/python/">python</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、说明一个整数，它加上100和加上268后都是一个完全平方数，请问该数是多少？
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 12 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/08/12/数字组合/">数字组合</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Pycharm/">Pycharm</a>, <a class="tag-link" href="/tags/python/">python</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、说明有1、2、3、4个数字，能组成多少个互不相同且无重复数字的三位数？都是多少？
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 11 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/08/11/猜歌游戏小结（四） 设置自定义布局/">猜歌游戏小结（四） 设置自定义布局</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/Android/">Android</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Android/">Android</a>, <a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、说明在这个游戏中，游戏下方具有3*8，共24个文字待选框。这几个文字待选框中的内容为随机生成的文字，其中包括有正确答案和干扰文字。而这个文字待选框布局不是系统默认存在的布局，所以需要自定义设置。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 11 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/08/11/猜歌游戏小结（三） 设置动画效果/">猜歌游戏小结（三） 设置动画效果</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/Android/">Android</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Android/">Android</a>, <a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、说明在该游戏中，中间有一个唱片机会旋转，表示正在播放音乐，配套还有一个唱片杆，配合实现整个唱片机的效果。因此，需要实现动画效果。盘片会旋转，而唱片杆会绕一个固定点旋转。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 11 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/08/11/猜歌游戏小结（二） 设置点击效果/">猜歌游戏小结（二） 设置点击效果</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/Android/">Android</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Android/">Android</a>, <a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、说明设置按钮的点击效果，当一个ImageButton被按下时，其颜色变深，以提示用户当前按键有被使用。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 11 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/08/11/猜歌游戏小结（一） 设置应用全屏/">猜歌游戏小结（一） 设置应用全屏</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/Android/">Android</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Android/">Android</a>, <a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							一、说明实现应用程序的全屏显示，试过几个方法都不可以。可能是因为SDK版本的问题。最后找到的可以成功实现游戏全屏的方法如下：
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 03 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/08/03/STM32学习笔记（七） CAN总线设计/">STM32学习笔记（七） CAN总线设计</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/CAN/">CAN</a>, <a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+1、CAN总线的层结构简要分成CAN对象层，CAN传输层和物理层。
+2、对象层功能：报文滤波，报文和状态的处理
+3、传输层的功能：故障界定，错误检测和标定，报文校验，应答，仲裁，报文分帧，传输速率和定时
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">8月 03 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/08/03/STM32学习笔记（六） 定时器/">STM32学习笔记（六） 定时器</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+1、STM32中一共有11个定时器，其中2个（TIM1,TIM8）高级控制定时器，4个通用定时器（TIM2~TIM5）和2个基本定时器(TIM6~TIM7)，以及2个看门狗定时器和1个系统嘀嗒(Systick)定时器。
+2、两个高级定时器是挂载在APB1上的，通用定时器和基本定时器是挂载在APB2上的。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 30 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/30/STM32学习笔记（五） 模拟数字转换ADC/">STM32学习笔记（五） 模拟数字转换ADC</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+1、STM32内部就包含有1~3个ADC。共有18个通道，可测量16个外部和2个内部信号源。
+2、各通道的A/D转换可以单次，连续，扫描或间断模式执行。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 30 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/30/STM32学习笔记（四） 直接寄存器访问（DMA）/">STM32学习笔记（四）直接寄存器访问（DMA）</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+1、DMA即直接存储器方位。DMA传输方式无须CPU直接控制设备，也没有中断处理方式那样的保留现场和恢复现场的过程，通过硬件为RAM和IO设置开辟一条直接传送数据的通路，能使CPU的效率大为提高。
+2、STM32共有两个DMA，总共12个通道。外设（TIMx,ADC,SPIx，i2Cx和USRTx）产生的DMA请求，通过逻辑或输入到DMA控制器，意味着同时只能有一个请求有效。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 30 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/30/STM32学习笔记（三） 串口通信/">STM32学习笔记（三） 串口通信</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+1、计算机常用的两种通信方式为串行通信和并行通信，两个具有相对的优缺点。
+2、串行通信分为同步和异步两种，其中同步需要通信的两个设备之间时钟同步，必须有同步信号。而异步通信时相互通信的设备之间不需要同步，只要求通信的接口方式及速率相同，以起始位和停止位为标志表示数据发送的开始和结束。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 30 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/30/STM32学习笔记（二） 中断/">STM32学习笔记（二） 中断</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+1、M3内核支持256个中断（16个内核中断和240个外部中断）和可编程256级中断优先级设置。然而，STM32并没有全部使用M3内核的东西，STM32目前支持的中断为84个，包括16和内核中断以及68个外部中断，共有16级可编程的优先级设置。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 29 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/29/STM32学习笔记（一） 时钟/">STM32学习笔记（一） 时钟</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+1、在使用51单片机时，时钟速度取决于外部晶振或者内部RC振荡电路的频率，是不可以改变的。而ARM的出现打破了这个传统的法则，可以通过软件随意的改变时钟速度。在使用某一功能前，要先对其时钟进行初始化。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 28 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/28/Calculator/">Calculator 简易计算器开发</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/Android/">Android</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Android/">Android</a>, <a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							Calculator 简易计算器开发项目说明使用Android平台开发一款简易的计算器应用。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 27 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/27/Game2048 Android APP开发/">2048游戏开发</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/Android/">Android</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Android/">Android</a>, <a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							2048游戏开发项目说明2048游戏是一款非常简单，容易上手但是又不失趣味性的一款游戏。根据《极客学院》的教学视频学的，视频总共70分钟左右。完成整个项目大概花费两个晚上共计5小时的时间。基本上没有遇到什么比较大的难点，遇到的问题都可以解决。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 27 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/27/activiate-power-mode效果配置/">装逼编辑器Atom+activiate-Power-Mode插件效果配置</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/教程/">教程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Atom/">Atom</a>, <a class="tag-link" href="/tags/activiate-power-mode/">activiate-power-mode</a>, <a class="tag-link" href="/tags/插件/">插件</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							插件效果展示
+本文说明activiate-power-mode是一款非常 装逼 的Atom编辑器插件。具体的安装方法就不多说，网上有很多的教程。这里只将插件的震动效果的配置。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 27 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/27/countTime倒计时 Android APP开发/">countTime倒计时应用(在子线程中更新主UI)</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/Android/">Android</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Android/">Android</a>, <a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							countTime倒计时应用(在子线程中更新主UI)项目说明通过文本输入框输入数据，通过点击按钮进行控制操作，每隔一秒时间见一。难点在于，在子线程中更新UI会导致程序崩溃。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 20 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/20/STM32 待机实验/">STM32 待机实验</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							STM32 待机实验项目说明在STM32中，存在三种低功耗模式。分别为睡眠模式，停机模式，待机模式。这三种低功耗模式对应的系统状态不一样，唤醒方式不一样。其中，待机模式是三者中功耗最低的模式。进入低功耗模式的方法也很简单，系统库函数中就存在。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 20 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/20/STM32 独立看门狗实验/">STM32 独立看门狗实验</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>, <a class="tag-link" href="/tags/看门狗/">看门狗</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							STM32 独立看门狗实验项目说明STM32内部有两个看门狗电路，一个独立看门狗电路，一个窗口看门狗电路。使用看门狗电路可以防止单片机程序跑飞。看门狗是一个硬件模块，可以理解为一个计数器，这个计数器有一个输入为重置，用于处理器向其写入数据；还有一个输出值，连接到处理器，用于向处理器复位。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 20 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/20/STM32 窗口看门狗实验/">STM32 窗口看门狗实验</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>, <a class="tag-link" href="/tags/看门狗/">看门狗</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							STM32 窗口看门狗实验项目说明STM32有两个看门狗，一个为独立看门狗，有自己的时钟；另一个为窗口看门狗，没有独立的时钟。另外，两种看门狗还有不同的喂狗方式。独立看门狗为向特定的寄存器写0XAAAA指令，窗口看门狗为利用产生的中断来喂狗。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 19 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/19/STM32 红外线实验/">STM32 红外线实验</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>, <a class="tag-link" href="/tags/红外线/">红外线</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							STM32 红外线实验项目说明红外线是一种不可见光，因此不像其他的无线信号一样可以穿墙，也因此不会干扰其他相同的红外设备。红外线通信是一种非常方便的无线通信协议。使用红外接收头与STM32连接就可以很容易的实现对STM32的无线控制。使用红外接收头对发送出来的红外信号进行分析处理，之后将叛变出来的0,1数据传送到STM32单片机，以便执行控制。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 19 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/19/STM32 DS18B20实验/">STM32 DS18B20实验</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/DS18B20/">DS18B20</a>, <a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							STM32 DS18B20实验项目介绍使用STM32与DS18B20进行连接，并通过串口函数将数据传送到PC机进行显示。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 18 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/18/STM32 printf函数/">STM32 Printf函数</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							STM32 printf函数项目说明STM32有5路串口，所以可以很容易的与PC机进行通信。而通过C语言的printf是一种很容易理解的方式。使用232芯片与PC进行通信，定时向通过串口发送数据到PC机进行显示。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 18 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/18/STM32 串口通信/">STM32 串口通信</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							STM32 串口通信项目说明使用STM32的串口与PC进行通信，使用的芯片为232或者485。从电脑端发送一和数值，STM32接收完成后通过中断函数进行加1操作，之后再通过串口发送到电脑进行显示。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 18 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/18/STM32总线实验/">STM32总线实验</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/IIC/">IIC</a>, <a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							STM32总线实验项目介绍通过IIC总线，向EEPROM存储器24c02进行读写操作。在51单片机中，由于没有IIC接口，所以需要通过两个管脚模拟IIC协议的时序，从而进行IIC总线通信。而在STM32中，是具有IIC总线接口的，但是比较复杂，所以这里依然通过GPIO口模拟IIC时序。通过IIC总线与24C02进行通信，并通过串口返回数据。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 17 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/17/coolweather debug/">Coolweather Debug</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/Android/">Android</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Android/">Android</a>, <a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/第一行代码/">第一行代码</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							coolweather Debug考试周以前照着《第一行代码》写的程序，一直存在bug，开始是直接闪退，后来找到两个地方代码打错后，就没看。过了二十多天后，今晚重新开始，发现可以运行，实现了部分功能，但还是有部分功能出错。可以实现从选择省，选择市，但是不能选择县。选择了具体市后应该要出现的这个市包含那些县，但是这个过程中闪退了。闪退原因经过后面排查才发现还是打错的四个字母坏的事。不过，发现并解决这个问题的过程很有趣。我在群里发了一个问题，然后有一个人一直帮我解决，后面还远程控制我的电脑，帮我排查。从他排查问题的方法里，学到了很多。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 15 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/15/STM 外部中断实验/">STM32 外部中断实验</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							STM32 外部中断实验项目说明STM32共用68个外部中断，16个内部中断，并且有16级的中断优先级设置。比起51内核单片机，STM32的中断设置要复杂和强大的多。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 15 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/15/STM32 systick时钟/">STM32 Systick时钟</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							STM32 systick时钟项目说明之前使用的延迟函数是利用循环语句占用cpu时间来实现的，这样的延时并不准确。而systick定时器是包含在M3的内核里，捆绑在 NVIC 中的。使用它可以做到很精确的延时。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 15 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/15/STM32 按键/">STM32 按键实验</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							STM32 按键实验项目说明使用按键对单片机进行输入，之后通过led的显示来展示输出。通过判断输入端口的数值来执行程序，并不才用中断控制的方式。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 14 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/14/STM32 流水灯系列/">STM32 流水灯续集</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							流水灯续集 这里写出三种不同的代码，均可是实现流水灯的效果。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 13 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/13/STM32 蜂鸣器实验/">STM32 蜂鸣器实验</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							STM32 蜂鸣器实验项目说明使用STM32控制无源蜂鸣器播放声音。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 12 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/12/STM32 流水灯项目/">STM32 流水灯实验</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/STM32/">STM32</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/STM32/">STM32</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							STM32 流水灯项目项目说明使用STM32单片机点亮流水灯的代码和之前使用的51有很大的区别。最主要的区别是这两种单片机的区别，至于核心算法思想都是一样的。使用STM32单片机的代码比骄复杂。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">7月 08 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/07/08/利用腾讯云学生套餐免费搭建wordpress博客/">利用腾讯云学生套餐免费搭建WP博客</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/教程/">教程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Linux/">Linux</a>, <a class="tag-link" href="/tags/Wordpress/">Wordpress</a>, <a class="tag-link" href="/tags/博客/">博客</a>, <a class="tag-link" href="/tags/服务器/">服务器</a>, <a class="tag-link" href="/tags/腾讯云/">腾讯云</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							本文是一片个人博客建站教程，利用腾讯云学生套餐搭建免费的WP博客。
+一、前期准备1、申请学生套餐中免费的腾讯云服务器。首先需要通过学信网验证学生身份，之后腾讯每月会赠送一个满65元减64元的代金券，一直赠送到大学毕业。云服务器建议选择安装cent OS 6.x版本。安装时候需要记住系统镜像的密码，后续通过SSH连接服务器时需要填写这个密码。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">6月 16 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/06/16/51单片机学习总结（一）/">51单片机学习总结（一）</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/总结/">总结</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/51单片机/">51单片机</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							51单片机学习总结（一）最近在学习STM32单片机的过程中，经常联想到51单片机，一些知识点总是会拿来对比。发现STM32单片机比起51内核要复杂和强大的多，但同时也对51单片机的很多知识点有了进一步的认识。下面回顾下之前用51单片机做过的项目。包括点阵显示项目，智能台灯项目，蓝牙小车项目，频率计项目。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">6月 13 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/06/13/城市距离/">城市距离</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							题目： 首先，你会读到若干个城市的名字。每个名字都只是一个英文单词，中间不含空格或其他符号。当读到名字为“###”（三个#号）时，表示城市名字输入结束，###并不是一个城市的名字。如果记读到的城市名字的数量为n。然后，你会读到（N x N）的一个整数矩阵。第一行的每一个数字，表示上述城市名单中第一个城市依次到另一个城市之间的里程。表中同一个城市之间的里程为0。最后，你会读到两个城市的名字。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">6月 11 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/06/11/模拟时钟/">模拟时钟</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							题目： 使用java语言创建一个模拟时钟，要求可以从外部输入三个数字表示原始时间，程序返回下一时刻，返回格式为tt:mm:ss
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">6月 06 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/06/06/类和对象/">类与对象</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							题目： 设计一个表示分数的类Fraction。这个类用两个int类型的变量分别表示分子和分母。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">6月 05 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/06/05/7进制与9进制/">7进制与9进制</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							题目： 一个数的7进制表达式为三位数，9进制表达式也为3位数，且这两个三位数互为对称数。找出该数。java代码：
+package theNumber;
+
+public class theNumber {
+
+    public static void main(String[] args) {        
+            for(int x=1;x&lt;7;x++) {
+                for(int y=0;y&lt;7;y++) {
+                    for(int z=1;z&lt;7;z++) {
+                        if (x*49+y*7+z==z*81+y*9+x) {
+                            System.out.println(&quot;i = &quot;+(x*49+y*7+z));
+                        }
+                    }
+                }
+            }
+    }
+}
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">6月 05 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/06/05/speed/">Speed</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							题目： 一辆车现在的里程表是一个回文数，为95859，两个小时后是一个新的回文数。求这个回文数是多少？车速是多少？
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">6月 05 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/06/05/自守数/">自守数</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							题目： 找出1-1000中的自守数。自守数说明： 一个数的平方的尾数等于该数时，该数字即为自守数。比如：0，1，5，6，25，76
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">6月 01 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/06/01/不使用中间变量交换两个数/">不使用中间变量交换两数</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							交换两个数的值是比较基础也比较常用的算法，比如在冒泡排序法中，从第一数开始比较，如后一个数比其小则交换两数的值。
+一般在交换两数的值是，最简单的方法适用的方法就是用中间变量暂存一个数。例如，要交换a,b的值，可使用中间变量c暂存其中的一个数。核心代码如下：
+c=b;
+b=a;
+a=b;
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 29 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/05/29/只含有重复字母的单词检测/">只含有重复字母的单词检测</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							 
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 29 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/05/29/回文检测/">回文检测</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							 
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 29 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/05/29/字母顺序检测/">字母顺序检测</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							题目： 如果一个单词中的字母都是以字母表的顺序出现，那么这个单词称为“abecedarian”.比如下面这些字母
+
+abdest acknow acorsy adempt adiplsy
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 21 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/05/21/myExp/">myExp</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							题目： 计算exp的一种方法是exp(x)=1+x+x^2/2!+x^3/3!+……
+要求： 编写一个myExp方法，计算该公式。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 21 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/05/21/求一个数的平方根算法/">求一个数的平方根算法</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							题目： 求解数a的平方根的一种方法为：先给求解结果指定一个粗略的猜测结果x,然后使用以下公式对其求解结果。
+
+          x1=(x0+a/x0)/2
+
+比如，如果要找9的平方根，首先给出猜测值6，即x=6,然后应用公式得x1=3.75,此值更接近正确结果。重复利用这个公式，很快可以得出结果。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 18 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/05/18/字符串综合实验/">字符串综合实验</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							题目： 编程实现一下功能。1.取出字符串首字母2.取出除首字母外的其他字母3.打印字符串中的每个字母，每行一个4.逆序打印出这个字符串的字母5.打印一个多位数的逆序数
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 18 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/05/18/斐波那契数列/">斐波那契数列</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							题目： 输入一个阶数，输出该阶数对应的斐波那契数列。
+斐波那契数列：斐波那契数列(Fibonacci sequence).其值为f(n)=f(n-1)+f(n-2).f(0)=0;f(1)=1;
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 18 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/05/18/欧几里得算法求最大公因式/">欧几里得算法求最大公因数</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							题目： 使用欧几里得算法求两个数的最大公因式。
+欧几里得算法：1.如果r是a除以b的余数，那么a与b的最大公因数和b与r的最大公因数相等，使用公式表示为：gcd(a,b)=gcd(b,r).2.使用欧几里得算法，可将两个大整数的最大公约数逐渐转化为两个较小整数的最大公约数，例如gcd(36,16)=gcd(16,4)=gcd(4,0)=4. 可见36和20的最大公约数为4.
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 17 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/05/17/UI设计实验一/">UI设计实验一</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/Android/">Android</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Android/">Android</a>, <a class="tag-link" href="/tags/UI/">UI</a>, <a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							本实验基于 郭霖《第一行代码》第三章内容。
+一、实验内容
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 13 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/05/13/Android开发入门/">Android开发入门</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/Android/">Android</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/Android/">Android</a>, <a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							
+
+大概从5月开始就在看Mars的java4Android的视频，总共50集，现在看到40集。另外，从周二开始看《第一行代码》，目前这本书看到一半。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 08 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/05/08/左移右移，循环移/">左移右移，循环移</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/VHDL/">VHDL</a>, <a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							题目： 同学在做移位器，用VHDL代码写。所以提示我想出了今天的编程题。可以实现左移，右移n位，或者循环左移循环右移。
+
+例如，输入12345，左移1位的结果为23450；右移一位的结果为01234；循环左移的结果为23451;循环右移的结果为51234.
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 07 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/05/07/寻找完数/">寻找完数</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							完数： 又称perfect number,若一个数等于出其自身外所有因数（能被其整除的数）的和，则称该数为完数。例如6=1+2+3;28=1+2+4+7+14;从这个定义可知，素数不能是完数。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 06 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/05/06/质因数分解/">质因数分解</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							题目： 输入一个数，并将这个数分解为几个素数的乘积。例如：16=2x2x2x2; 20=2x5x2;3=3x1;
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 05 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/05/05/单词长度/">单词长度</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							题目： 输入一个句子，返回这个句子中包含的每个单词的长度。句子中的每个单词以空格为分界，句子以英文句号结束。每个长度中间加空格，末尾的句号不算做最后一个单词的长度中。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 04 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/05/04/读数字/">读数字</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							功能： 输入一个数，这个数载的范围为（-10000，10000）。要求输出输入的这个数的读法。如果遇到负数，要在前面加上“fu”.
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">5月 01 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/05/01/素数2.0/">素数2.0</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							前几天写了一个查找素数的程序，现在写一个计算指定素数的和。例如2为第一个素数，3为第二个素数，现在需要求第n到m个素数的和。
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">4月 30 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/04/30/BJT转UTC/">BJT转UTC</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							<a class="category-link" href="/categories/编程/">编程</a>
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							<a class="tag-link" href="/tags/java/">java</a>, <a class="tag-link" href="/tags/编程/">编程</a>
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							UTC是世界协调时，BJT是北京时间，UTC时间相当于BJT减去8。 现在，你的程序要读入一个整数，表示BJT的时和分。整数的个位和十位表示分，百位和千位表示小时。
+
+如果小时小于10，则没有千位部分；如果小时是0，则没有百位部分；如果分小于10分，需要保留十位上的0。如1124表示11点24分，而905表示9点5分，36表示0点36分，7表示0点7分。
+
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">4月 21 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/04/21/This is my first blog/">This Is My First Blog</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							 
+						...
+					</p>
+                    		</div>
+			</div>	
+   		
+			<div class="md-timeline-block">
+                		<div class="md-timeline-date blue">
+                   			<div class="md-date">4月 21 2016</div>
+                		</div>
+
+                		<div class="md-timeline-content">
+                    			<div class="md-timeline-title"><a href="/2016/04/21/hello-world/">Hello World</a></div>
+					<div class="md-timeline-info">
+						<span class="md-timeline-info-span">Categories:
+							
+						</span>
+						<span class="md-timeline-info-span">Tags:
+							
+						</span>
+						
+					</div>
+					<p class="md-timeline-excerpt">
+						
+							Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+						...
+					</p>
+                    		</div>
+			</div>	
+   			   	  		
+   	</section>
+
+<script type="text/ls-javascript" id="page-timeline-script">
+    var adjustFooter = function() {
+        if( ($('#bottom').offset().top + $('#bottom').outerHeight() )<$(window).height() ) {
+            var footerBottom = $(window).height() - $('#bottom').outerHeight() - $('#bottom').offset().top;
+            $('#bottom').css('bottom', '-' + footerBottom + 'px');
+        }
+    };
+    $(document).ready(function() {
+        adjustFooter();
+    });
+</script>
+
+
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/daily_pic.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/avatar.jpg" alt="cyang's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        cy950812@gmail.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="mailto: cy950812@gmail.com" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2018/10/">十月 2018<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/09/">九月 2018<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/08/">八月 2018<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/07/">七月 2018<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/06/">六月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/05/">五月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/04/">四月 2018<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/02/">二月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/01/">一月 2018<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/12/">十二月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/10/">十月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/04/">四月 2017<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/03/">三月 2017<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/02/">二月 2017<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/01/">一月 2017<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/12/">十二月 2016<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/11/">十一月 2016<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/10/">十月 2016<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/09/">九月 2016<span class="sidebar_archives-count">24</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/08/">八月 2016<span class="sidebar_archives-count">18</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/07/">七月 2016<span class="sidebar_archives-count">25</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/06/">六月 2016<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/05/">五月 2016<span class="sidebar_archives-count">16</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/04/">四月 2016<span class="sidebar_archives-count">3</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                分类
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                <a class="sidebar_archives-link" href="/categories/Android/">Android<span class="sidebar_archives-count">11</span></a></li><li><a class="sidebar_archives-link" href="/categories/Arduino/">Arduino<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/STM32/">STM32<span class="sidebar_archives-count">31</span></a></li><li><a class="sidebar_archives-link" href="/categories/嵌入式/">嵌入式<span class="sidebar_archives-count">13</span></a></li><li><a class="sidebar_archives-link" href="/categories/总结/">总结<span class="sidebar_archives-count">18</span></a></li><li><a class="sidebar_archives-link" href="/categories/感受/">感受<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/教程/">教程<span class="sidebar_archives-count">11</span></a></li><li><a class="sidebar_archives-link" href="/categories/树莓派/">树莓派<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/categories/硬件/">硬件<span class="sidebar_archives-count">19</span></a></li><li><a class="sidebar_archives-link" href="/categories/编程/">编程<span class="sidebar_archives-count">42</span></a></li><li><a class="sidebar_archives-link" href="/categories/读书/">读书<span class="sidebar_archives-count">3</span></a>
+            </ul>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/tags" title="Tags">
+                
+                    <i class="material-icons sidebar-material-icons">label</i>
+                
+                Tags
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/timeline" title="timeline">
+                
+                    <i class="material-icons sidebar-material-icons">timeline</i>
+                
+                timeline
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/notes" title="notes">
+                
+                    <i class="material-icons sidebar-material-icons">note</i>
+                
+                notes
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
+
+    <!-- Article Number  -->
+    
+        <li>
+            <a href="/archives">
+                文章总数
+                <span class="sidebar-badge">160</span>
+            </a>
+        </li>
+        
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+
+<!-- Theme Material -->
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="http://twitter.com/cyang812" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+
+    <!-- Google + -->
+    
+
+    <!-- Weibo -->
+    
+        <a href="http://weibo.com/cyang812" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-weibo">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/cyang812" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+        <a href="https://www.zhihu.com/people/cyang812" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-zhihu">
+                <span class="visuallyhidden">Zhihu</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+        <a href="https://telegram.me/cyang812" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-telegram">
+                <span class="visuallyhidden">Telegram</span>
+            </button><!--
+     --></a>
+    
+    
+    <!-- V2EX -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;2016/04/21&nbsp;-<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>cyang's blog
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?V/53wGualMuiPM3xoetD5Q==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+    
+        <script>lsloader.load("sm_js","/js/smoothscroll.js?lOy/ACj5suSNi7ZVFVbpFQ==", true)</script>
+    
+
+
+
+
+
+
+
+   <!-- 使用 DISQUS js 代码 -->
+
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.2 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>
